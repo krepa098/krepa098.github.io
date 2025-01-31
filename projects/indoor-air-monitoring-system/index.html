@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>Indoor Air Monitoring System</title>
+
+
+
+<meta name="title" content="Indoor Air Monitoring System">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://krepa098.github.io/projects/indoor-air-monitoring-system/">
+
+<meta property="og:site_name" content="Paul&#x27;s Journal">
+
+
+<meta property="og:title" content="Indoor Air Monitoring System">
+
+
+
+
+
+<link rel="canonical" href="https://krepa098.github.io/projects/indoor-air-monitoring-system/">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/suCSS.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/extra.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/gallery.css" />
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://krepa098.github.io/js/script.js" defer></script>
+<script src="https://krepa098.github.io/js/jquery.min.js"></script>
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;home&#x2F;
+      </a>
+    
+      <a href="&#x2F;projects" class="">
+        
+        &#x2F;projects&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://krepa098.github.io/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://krepa098.github.io/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<div><a href="..">..</a>/<span class="accent-data">indoor-air-monitoring-system</span></div>
+<time datetime="2023-01-01">published on: <span class="accent-data"> 01&#x2F;2023</span></time>
+
+
+<div class="">
+  tags:
+  
+  <a href="/tags/open-source">&#47;open source&#47;</a>
+  
+  <a href="/tags/iot">&#47;IoT&#47;</a>
+  
+  <a href="/tags/full-stack">&#47;full stack&#47;</a>
+  
+</div>
+
+
+
+
+<hr>
+<h1>Indoor Air Monitoring System</h1>
+
+
+
+
+
+
+
+
+
+
+
+<div>
+  An indoor air monitoring system with self-made hardware, backend, and frontend, exploring the possibilities of async rust, yew, and web assembly with deployment as a Docker image.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+<div class="gallery-scroll-container send-back">
+
+    <!-- scrolling container -->
+    <div class="gallery-row" id="gallery-scrollbar">
+        <!-- gallery elements -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p1">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;casing.da47fb931fba0449.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">the smart meters with their casings</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p2">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;preview.d9c28e47b79fac11.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">frontend: a dashboard to access historical data</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p3">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;hardware-pcb.d6db0105c7cf39f0.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">the sensor&#x27;s ESP32-based hardware</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p4">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;hardware-block-diagram.38bdb52b7fc4dcb8.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">the sensor&#x27;s block diagram</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p5">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;power-profile.bb51fa9698c95650.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">power consumption: periodical wake-ups to sample and transfer data</div>
+            
+        </div>
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <!-- next and previous buttons -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <a class="gallery-prev hidden-mobile">&#10094;</a>
+    <a class="gallery-next hidden-mobile">&#10095;</a>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="gallery-popover" id="gallery-popover"></div>
+
+    <!-- scroll script -->
+    <script src="https://krepa098.github.io/js/gallery.js"></script>
+
+</div><h3 id="description">Description</h3>
+<p>Indoor air quality systems typically monitor temperature, humidity, pressure, and air quality (VOCs or CO2).
+The main sensor is Bosch's <code>BME680</code> which measures<sup class="footnote-reference"><a href="#1">1</a></sup> for all of these quantities and comes in a small package.</p>
+<p>The <code>ESP32-C3</code> is the main processor on this <a href="https://krepa098.github.io/projects/indoor-air-monitoring-system/#p3">[board]</a> which periodically (e.g., every 5 minutes) polls the air quality sensor for new measurements.
+Those measurements are then processed by Bosch's <code>bsec2</code> library and stored for transfer.
+After accumulating several readings, the microcontroller connects to the WiFi network and broadcasts the measurements via UDP on port 8989.
+Connecting to the WiFi network is by far the most <a href="https://krepa098.github.io/projects/indoor-air-monitoring-system/#p5">[expensive operation]</a> (and the main downside of using WiFi for IOT).
+Powered by 4xAA NiMH batteries, the device manages to operate for about three months.</p>
+<p>The <code>backend</code> listens on port 8989 for incoming traffic.
+Upon reception of a measurements data package, the content is parsed and stored in the <code>sqlite</code> database.
+Queries to the database use <code>diesel</code> ORM, which enforces corrects of the queries (and the matching data structures) at compile time.</p>
+<p>The <code>frontend</code> is written in <code>rust</code> with the <code>yew</code> web app framework.
+It compiles to a <code>wasm</code> binary, which is loaded by the browser and creates <a href="https://krepa098.github.io/projects/indoor-air-monitoring-system/#p2">[the webpage]</a>.
+Data is queried from the database using the backend's <code>REST</code> API and is plotted with <code>plotly</code>.</p>
+<p>Frontend and backend are deployed as a <code>docker container</code> (e.g., to a NAS).</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>air quality is <em>estimated</em> based on a change in resistance (MOX sensor) and a model of some kind baked into Bosch's library.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<div class="send-back">
+  Resources:
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;github.com&#x2F;krepa098&#x2F;smart-meter" class="icon-button"><i class="fa fa-code" aria-hidden="true"></i> code</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+  <div>
+    <p>Theme and color theme licensed under <a target="_blank" rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/Licence_MIT">MIT</a>.<br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using a fork of
+      the <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme, <a
+        target="_blank" rel="noopener noreferrer" href="https://speyll.github.io/suCSS/">suCSS</a> framework &amp; <a
+        target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a>.<br>
+    </p>
+
+  </div>
+  
+</div>
+      </footer>
+</body>
+</html>

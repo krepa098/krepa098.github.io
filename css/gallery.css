@@ -1,0 +1,239 @@
+.gallery-scroll-container {
+    width: 100%;
+    position: relative;
+    padding-left: unset;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.gallery-row {
+    overflow: auto;
+    display: flex;
+    scroll-snap-type: inline proximity;
+    scroll-behavior: smooth;
+}
+
+.no-user-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.gallery-row,
+.gallery-row>.gallery-column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.gallery-column {
+    float: left;
+    flex-shrink: 0;
+    flex-grow: 1;
+    transition: all .2s ease-in-out;
+}
+
+.gallery-column:hover {
+    background-color: unset;
+}
+
+.gallery-content {
+    border: solid 2px var(--accent);
+    border-radius: 8px;
+    height: 28em;
+    width: 20em;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    scroll-snap-align: center;
+    background-color: var(--bg);
+    flex-shrink: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-content>a {
+    cursor: pointer;
+}
+
+.gallery-content-wide {
+    /* height of the gallery */
+    height: 24em;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--accent);
+    width: auto;
+    flex-shrink: 0;
+    flex-grow: 1;
+    margin: 6px;
+    scroll-snap-align: center;
+    overflow: hidden;
+    max-width: 90vw;
+    max-height: 90vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-content-wide>video,
+.gallery-content-wide>img {
+    object-fit: scale-down;
+    border-width: 0px;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+@keyframes attention {
+    0% {
+        transform: scale(100%);
+    }
+
+    20% {
+        transform: scale(95%);
+    }
+
+    40% {
+        transform: scale(105%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
+.gallery-content-wide:target {
+    border-width: 4px;
+    animation: attention 1.0s 1;
+}
+
+.gallery-image-caption {
+    position: sticky;
+    bottom: 0;
+    color: whitesmoke;
+    padding: 3px;
+    background-color: #5a5a5ab9;
+}
+
+.gallery-column:hover {
+    transform: scale(1.05);
+}
+
+.gallery-subcontent {
+    padding: .3rem;
+    color: var(--text);
+    white-space: wrap;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: var(--accent);
+    flex-grow: 1;
+}
+
+.gallery-content>img {
+    border-style: none;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 12em;
+    object-fit: cover;
+    padding: 0px;
+}
+
+.gallery-subcontent>h1::before,
+.gallery-subcontent>h2::before,
+.gallery-subcontent>h3::before,
+.gallery-subcontent>h4::before,
+.gallery-subcontent>h5::before,
+.gallery-subcontent>h6::before {
+    color: var(--accent);
+    content: ''
+}
+
+
+.gallery-prev,
+.gallery-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 100px;
+    transform: translate(0%, -50%);
+    line-height: 100%;
+    padding-left: 16px;
+    padding-top: 40px;
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: transparent;
+    border-style: dashed;
+    border-width: 1px;
+    transition: all .2s ease-in-out;
+    border-radius: 6px;
+}
+
+/* Position the "next button" to the right */
+.gallery-next {
+    right: -50px;
+}
+
+.gallery-prev {
+    left: -50px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.gallery-prev:hover,
+.gallery-next:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+@media (max-width: 700px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+.gallery-timeline {
+    text-align: center;
+    padding-top: 6px;
+    color: var(--text);
+}
+
+.gallery-tags {
+    padding: 8px;
+    font-size: 0.85rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    gap: 4px;
+}
+
+.gallery-tags-container {
+    line-height: 1.2;
+    row-gap: 8px;
+}
+
+.gallery-popover {
+    position: fixed;
+    width: 20vw;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0 0 0.2rem black);
+    transform: translate(0, -100%);
+    overflow: hidden;
+}
+
+.gallery-popover>* {
+    border-width: 0px;
+}

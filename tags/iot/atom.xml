@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul&#x27;s Journal - IoT</title>
+    <link rel="self" type="application/atom+xml" href="https://krepa098.github.io/tags/iot/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://krepa098.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>https://krepa098.github.io/tags/iot/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Indoor Air Monitoring System</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/indoor-air-monitoring-system/"/>
+        <id>https://krepa098.github.io/projects/indoor-air-monitoring-system/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/indoor-air-monitoring-system/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;casing.da47fb931fba0449.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the smart meters with their casings&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.d9c28e47b79fac11.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;frontend: a dashboard to access historical data&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;hardware-pcb.d6db0105c7cf39f0.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the sensor&amp;#x27;s ESP32-based hardware&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;hardware-block-diagram.38bdb52b7fc4dcb8.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the sensor&amp;#x27;s block diagram&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;power-profile.bb51fa9698c95650.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;power consumption: periodical wake-ups to sample and transfer data&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;Indoor air quality systems typically monitor temperature, humidity, pressure, and air quality (VOCs or CO2).
+The main sensor is Bosch&#x27;s &lt;code&gt;BME680&lt;&#x2F;code&gt; which measures&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; for all of these quantities and comes in a small package.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;code&gt;ESP32-C3&lt;&#x2F;code&gt; is the main processor on this &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;indoor-air-monitoring-system&#x2F;#p3&quot;&gt;[board]&lt;&#x2F;a&gt; which periodically (e.g., every 5 minutes) polls the air quality sensor for new measurements.
+Those measurements are then processed by Bosch&#x27;s &lt;code&gt;bsec2&lt;&#x2F;code&gt; library and stored for transfer.
+After accumulating several readings, the microcontroller connects to the WiFi network and broadcasts the measurements via UDP on port 8989.
+Connecting to the WiFi network is by far the most &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;indoor-air-monitoring-system&#x2F;#p5&quot;&gt;[expensive operation]&lt;&#x2F;a&gt; (and the main downside of using WiFi for IOT).
+Powered by 4xAA NiMH batteries, the device manages to operate for about three months.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;code&gt;backend&lt;&#x2F;code&gt; listens on port 8989 for incoming traffic.
+Upon reception of a measurements data package, the content is parsed and stored in the &lt;code&gt;sqlite&lt;&#x2F;code&gt; database.
+Queries to the database use &lt;code&gt;diesel&lt;&#x2F;code&gt; ORM, which enforces corrects of the queries (and the matching data structures) at compile time.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;code&gt;frontend&lt;&#x2F;code&gt; is written in &lt;code&gt;rust&lt;&#x2F;code&gt; with the &lt;code&gt;yew&lt;&#x2F;code&gt; web app framework.
+It compiles to a &lt;code&gt;wasm&lt;&#x2F;code&gt; binary, which is loaded by the browser and creates &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;indoor-air-monitoring-system&#x2F;#p2&quot;&gt;[the webpage]&lt;&#x2F;a&gt;.
+Data is queried from the database using the backend&#x27;s &lt;code&gt;REST&lt;&#x2F;code&gt; API and is plotted with &lt;code&gt;plotly&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Frontend and backend are deployed as a &lt;code&gt;docker container&lt;&#x2F;code&gt; (e.g., to a NAS).&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;air quality is &lt;em&gt;estimated&lt;&#x2F;em&gt; based on a change in resistance (MOX sensor) and a model of some kind baked into Bosch&#x27;s library.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

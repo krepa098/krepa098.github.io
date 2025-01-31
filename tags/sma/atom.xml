@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul&#x27;s Journal - sma</title>
+    <link rel="self" type="application/atom+xml" href="https://krepa098.github.io/tags/sma/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://krepa098.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2018-04-01T00:00:00+00:00</updated>
+    <id>https://krepa098.github.io/tags/sma/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Muscle Wire Robot</title>
+        <published>2018-04-01T00:00:00+00:00</published>
+        <updated>2018-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/muscle-wire-robot/"/>
+        <id>https://krepa098.github.io/projects/muscle-wire-robot/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/muscle-wire-robot/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;robot.65a7db43693c2ad6.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;assembled robotic arm&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;controller.dbb994aa6dcf971c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;controller board with drivers&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;robot-with-object.4b0792b92905d543.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;robotic arm with payload&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;muscle-wire-robot&#x2F;segment.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;stroke amplifier&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;muscle-wire-robot&#x2F;gripper2.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;gripper opening and closing&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;muscle-wire-robot&#x2F;#p1&quot;&gt;[SMA-actuated robotic arm]&lt;&#x2F;a&gt; was constructed as part of a PhD student&#x27;s thesis &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; to have a showcase platform for a novel SMA control algorithm.
+The project had to be completed within a relatively tight time frame which meant 3D printing most parts - even though carbon fibre would have been the better choice for some components.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Shape memory alloy&lt;&#x2F;code&gt; (SMA) is a special kind of alloy that &#x27;remembers&#x27; its initial shape (established through &#x27;training&#x27;). Upon deformation, it can return to its initial shape by means of heat. Using ohmic heating, SMA muscle wires contract by about 3% of their length. The contraction force is quite significant and SMA wires rank among the actuators with the highest &lt;code&gt;power-to-weight&lt;&#x2F;code&gt; ratio.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The whole assembly had to be as lightweight as possible and also relatively small to fit the UAV&#x27;s envelope.
+Further, it required a high level of integration to be mounted on the UAV without requiring additional hardware.&lt;&#x2F;p&gt;
+&lt;p&gt;SMA wires are particularly challenging to integrate into designs because&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;they only exhibit a small stroke when actuated (although with a high force), therefore some &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;muscle-wire-robot&#x2F;#p4&quot;&gt;[leverage]&lt;&#x2F;a&gt; is usually required&lt;&#x2F;li&gt;
+&lt;li&gt;they require a bias force (typically a spring, or an antagonistic arrangement) to return them to their expanded&#x2F;stretched state&lt;&#x2F;li&gt;
+&lt;li&gt;any uneven heating (e.g., by contact with metal) causes a performance degradation&lt;&#x2F;li&gt;
+&lt;li&gt;the high actuation force combined with the minuscule surface of the wire creates a substantial contact pressure increasing the likelihood of the wire just cutting into the plastic parts&lt;&#x2F;li&gt;
+&lt;li&gt;the wire exhibits a change in resistance (proportional to its state and length), but this can not be used for (reliable) sensing&lt;&#x2F;li&gt;
+&lt;li&gt;they are electrically conductive which can result in accidental shorts&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;muscle-wire-robot&#x2F;#p2&quot;&gt;[controller board]&lt;&#x2F;a&gt; features an ESP8266 running a small web server providing a &lt;code&gt;REST API&lt;&#x2F;code&gt; to read the sensors and take commands.
+Being wireless, it can easily interact with the &lt;code&gt;MATLAB&lt;&#x2F;code&gt; environment running the control algorithm.
+The position readings of the revolute joint are obtained from a potentiometer attached to the shaft.
+MOSFETs control the ohmic heating of the SMA wires by applying a &lt;code&gt;PWM&lt;&#x2F;code&gt; signal with a duty cycle commanded by the control algorithm.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Quintanar-Guzman, S., Kannan, S., Olivares-Mendez, M. A., &amp;amp; Voos, H. (2016). Lightweight robotic arm actuated by shape memory alloy (SMA) wires. 2016 8th International Conference on Electronics, Computers and Artificial Intelligence (ECAI), 1–6. https:&#x2F;&#x2F;doi.org&#x2F;10.1109&#x2F;ECAI.2016.7861065&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

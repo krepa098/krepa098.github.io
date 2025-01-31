@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>Aerial Grasping: Simulation and Control</title>
+
+
+
+<meta name="title" content="Aerial Grasping: Simulation and Control">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/">
+
+<meta property="og:site_name" content="Paul&#x27;s Journal">
+
+
+<meta property="og:title" content="Aerial Grasping: Simulation and Control">
+
+
+
+
+
+<link rel="canonical" href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/suCSS.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/extra.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/gallery.css" />
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://krepa098.github.io/js/script.js" defer></script>
+<script src="https://krepa098.github.io/js/jquery.min.js"></script>
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;home&#x2F;
+      </a>
+    
+      <a href="&#x2F;projects" class="">
+        
+        &#x2F;projects&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://krepa098.github.io/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://krepa098.github.io/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<div><a href="..">..</a>/<span class="accent-data">aerial-grasping-simulation-and-control</span></div>
+<time datetime="2024-05-01">published on: <span class="accent-data"> 05&#x2F;2024</span></time>
+
+
+<div class="">
+  tags:
+  
+  <a href="/tags/control">&#47;control&#47;</a>
+  
+  <a href="/tags/software">&#47;software&#47;</a>
+  
+  <a href="/tags/paper">&#47;paper&#47;</a>
+  
+  <a href="/tags/ros">&#47;ros&#47;</a>
+  
+</div>
+
+
+
+
+<hr>
+<h1>Aerial Grasping: Simulation and Control</h1>
+
+
+
+
+
+<div>
+  Contact force control and model predictive control to generate constraint trajectories suitable for aerial grasping with universal jamming grippers.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+<div class="gallery-scroll-container send-back">
+
+    <!-- scrolling container -->
+    <div class="gallery-row" id="gallery-scrollbar">
+        <!-- gallery elements -->
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p1">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;uav.c349adffeffc32fc.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">the aerial system: UAV, gripper, camera</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p2">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;semantic-model.75f8af520035f80b.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">semantic gripper model</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p3">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;simulation-model.d5bb59a07a5e9d90.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">equivalent simulation model</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p4">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;control-diagram.2b6fcc672b169d37.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">block diagram of the controller with force and trajectory control subsystems</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p5">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;scenario.63087937eae64458.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">the test scenario</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p6">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;preview.c524522fe68f5e2c.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">simulation &amp; test environment</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p7">
+            
+            <video id="content" autoplay loop playsinline disablePictureInPicture muted>
+                <source src="https://krepa098.github.io/raw/projects/mpc/demo.mp4" type="video/mp4" />
+            </video>
+            
+
+            
+            <div class="gallery-image-caption no-user-select">grasping the payload</div>
+            
+        </div>
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <!-- next and previous buttons -->
+    
+    
+    
+    
+
+    
+    <a class="gallery-prev hidden-mobile">&#10094;</a>
+    <a class="gallery-next hidden-mobile">&#10095;</a>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="gallery-popover" id="gallery-popover"></div>
+
+    <!-- scroll script -->
+    <script src="https://krepa098.github.io/js/gallery.js"></script>
+
+</div><h3 id="description">Description</h3>
+<p>This project's <u>main objective</u> was to automate aerial grasping with universal jamming grippers, as manually controlling this operation quickly overburdens the drone operator.
+This project had three distinct goals:</p>
+<ol>
+<li>Convert the modeling insights gained <a href="https://krepa098.github.io/projects/universal-jamming-gripper/">here</a> into a <code>gazebo</code> model</li>
+<li>Develop and implement a suitable <code>control strategy</code> for the universal jamming gripper</li>
+<li>Test the system in <code>simulation</code></li>
+</ol>
+<h4 id="simulation-model">Simulation Model</h4>
+<p>Starting from the <a href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/#p2">[mental model]</a> developed earlier, an <a href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/#p3">[analogous model]</a> suitable for simulation had to be found.
+Since <code>gazebo</code> (the robotics simulator) cannot handle soft body dynamics, the gripper's model had to be simplified to represent the important characteristics of the gripper, namely:</p>
+<ul>
+<li>the transition from soft to rigid</li>
+<li>the change of volume (shrinking of the membrane) due to the variable air content in the membrane</li>
+<li>the elastic/springy behavior depending on the air content</li>
+</ul>
+<p>A precise model of the gripper's membrane's shape was not seen as a major factor in achieving a faithful simulation model (and it could not be achieved with gazebo alone).</p>
+<p>To achieve the requirements, the gripper was modeled as a uniaxial, variable spring acting on a disc shape attached to a prismatic joint.
+The force to apply to that joint is governed by the law developed previously, which depends on the depth of entry, and the air content in the membrane.
+A <code>gazebo plugin</code> applies force to the joint and provides feedback on the contact force.
+It also takes care of necessary <code>ros</code> integration and creates and breaks 'joints' with the payload to grasp and release the payloads.
+The gripper was then <a href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/#p1">[attached]</a> to a UAV and a simulated depth camera.</p>
+<h4 id="control-strategy">Control Strategy</h4>
+<p>The goal here is to have a reliable control strategy that:</p>
+<ul>
+<li>guides our UAV effectively towards the payload following a trajectory that preferably avoids obstacles it encounters</li>
+<li>keep a well-defined contact force between the gripper and the payload while the pumps are running</li>
+</ul>
+<p>The trajectory is obtained by repeatedly solving a non-linear optimization problem.
+This receding-horizon optimization scheme uses a simple kinematic model (the 'dynamics' of the UAV) and a cost function that encourages the desired behaviors.
+The behaviors herein were:</p>
+<ul>
+<li>tracking (get closer to the goal)</li>
+<li>repulsion (stay away from obstacles)</li>
+<li>perception (keep the goal in the field of view)</li>
+<li>grasping (approach the goal from the top and minimize motion in the horizontal plane)</li>
+</ul>
+<p>Upon contact with the payload, the control scheme is <a href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/#p4">[switched from trajectory control to force control]</a>.
+During pump activation, a sliding mode controller keeps the contact force close to the desired level.
+This is an important aspect as any loss in contact force would result in a reduced contact surface and therefore increase the likelihood of a failed grasp.</p>
+<h4 id="virtual-experiment">Virtual Experiment</h4>
+<p>To conclude, a test scenario was set up where a payload is a priori roughly located in a <a href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/#p5">[parking garage]</a>.
+There are plenty of obstacles to be avoided by the UAV.
+The camera is used to refine the goal position as soon as it enters its field of view.
+In this scenario, the aerial system takes off, travels, refines the location of the payload, <a href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/#p7">[picks it up]</a>, transports it to a safe area to be disposed of, and finally lands back on the gripper.</p>
+
+
+
+
+
+
+<br>
+<div class="send-back">
+  Resources:
+  
+  <a href="https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41598-024-62416-1" class="icon-button"><i class="fa fa-file-text" aria-hidden="true"></i> paper</a>
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+  <div>
+    <p>Theme and color theme licensed under <a target="_blank" rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/Licence_MIT">MIT</a>.<br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using a fork of
+      the <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme, <a
+        target="_blank" rel="noopener noreferrer" href="https://speyll.github.io/suCSS/">suCSS</a> framework &amp; <a
+        target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a>.<br>
+    </p>
+
+  </div>
+  
+</div>
+      </footer>
+</body>
+</html>

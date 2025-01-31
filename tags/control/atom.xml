@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul&#x27;s Journal - control</title>
+    <link rel="self" type="application/atom+xml" href="https://krepa098.github.io/tags/control/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://krepa098.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-01T00:00:00+00:00</updated>
+    <id>https://krepa098.github.io/tags/control/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Aerial Grasping: Simulation and Control</title>
+        <published>2024-05-01T00:00:00+00:00</published>
+        <updated>2024-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/"/>
+        <id>https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;uav.c349adffeffc32fc.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the aerial system: UAV, gripper, camera&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;semantic-model.75f8af520035f80b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;semantic gripper model&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;simulation-model.d5bb59a07a5e9d90.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;equivalent simulation model&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;control-diagram.2b6fcc672b169d37.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;block diagram of the controller with force and trajectory control subsystems&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;scenario.63087937eae64458.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the test scenario&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p6&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.c524522fe68f5e2c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;simulation &amp;amp; test environment&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p7&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;mpc&#x2F;demo.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;grasping the payload&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This project&#x27;s &lt;u&gt;main objective&lt;&#x2F;u&gt; was to automate aerial grasping with universal jamming grippers, as manually controlling this operation quickly overburdens the drone operator.
+This project had three distinct goals:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Convert the modeling insights gained &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;&quot;&gt;here&lt;&#x2F;a&gt; into a &lt;code&gt;gazebo&lt;&#x2F;code&gt; model&lt;&#x2F;li&gt;
+&lt;li&gt;Develop and implement a suitable &lt;code&gt;control strategy&lt;&#x2F;code&gt; for the universal jamming gripper&lt;&#x2F;li&gt;
+&lt;li&gt;Test the system in &lt;code&gt;simulation&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;simulation-model&quot;&gt;Simulation Model&lt;&#x2F;h4&gt;
+&lt;p&gt;Starting from the &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p2&quot;&gt;[mental model]&lt;&#x2F;a&gt; developed earlier, an &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p3&quot;&gt;[analogous model]&lt;&#x2F;a&gt; suitable for simulation had to be found.
+Since &lt;code&gt;gazebo&lt;&#x2F;code&gt; (the robotics simulator) cannot handle soft body dynamics, the gripper&#x27;s model had to be simplified to represent the important characteristics of the gripper, namely:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the transition from soft to rigid&lt;&#x2F;li&gt;
+&lt;li&gt;the change of volume (shrinking of the membrane) due to the variable air content in the membrane&lt;&#x2F;li&gt;
+&lt;li&gt;the elastic&#x2F;springy behavior depending on the air content&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;A precise model of the gripper&#x27;s membrane&#x27;s shape was not seen as a major factor in achieving a faithful simulation model (and it could not be achieved with gazebo alone).&lt;&#x2F;p&gt;
+&lt;p&gt;To achieve the requirements, the gripper was modeled as a uniaxial, variable spring acting on a disc shape attached to a prismatic joint.
+The force to apply to that joint is governed by the law developed previously, which depends on the depth of entry, and the air content in the membrane.
+A &lt;code&gt;gazebo plugin&lt;&#x2F;code&gt; applies force to the joint and provides feedback on the contact force.
+It also takes care of necessary &lt;code&gt;ros&lt;&#x2F;code&gt; integration and creates and breaks &#x27;joints&#x27; with the payload to grasp and release the payloads.
+The gripper was then &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p1&quot;&gt;[attached]&lt;&#x2F;a&gt; to a UAV and a simulated depth camera.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;control-strategy&quot;&gt;Control Strategy&lt;&#x2F;h4&gt;
+&lt;p&gt;The goal here is to have a reliable control strategy that:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;guides our UAV effectively towards the payload following a trajectory that preferably avoids obstacles it encounters&lt;&#x2F;li&gt;
+&lt;li&gt;keep a well-defined contact force between the gripper and the payload while the pumps are running&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The trajectory is obtained by repeatedly solving a non-linear optimization problem.
+This receding-horizon optimization scheme uses a simple kinematic model (the &#x27;dynamics&#x27; of the UAV) and a cost function that encourages the desired behaviors.
+The behaviors herein were:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;tracking (get closer to the goal)&lt;&#x2F;li&gt;
+&lt;li&gt;repulsion (stay away from obstacles)&lt;&#x2F;li&gt;
+&lt;li&gt;perception (keep the goal in the field of view)&lt;&#x2F;li&gt;
+&lt;li&gt;grasping (approach the goal from the top and minimize motion in the horizontal plane)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Upon contact with the payload, the control scheme is &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p4&quot;&gt;[switched from trajectory control to force control]&lt;&#x2F;a&gt;.
+During pump activation, a sliding mode controller keeps the contact force close to the desired level.
+This is an important aspect as any loss in contact force would result in a reduced contact surface and therefore increase the likelihood of a failed grasp.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;virtual-experiment&quot;&gt;Virtual Experiment&lt;&#x2F;h4&gt;
+&lt;p&gt;To conclude, a test scenario was set up where a payload is a priori roughly located in a &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p5&quot;&gt;[parking garage]&lt;&#x2F;a&gt;.
+There are plenty of obstacles to be avoided by the UAV.
+The camera is used to refine the goal position as soon as it enters its field of view.
+In this scenario, the aerial system takes off, travels, refines the location of the payload, &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p7&quot;&gt;[picks it up]&lt;&#x2F;a&gt;, transports it to a safe area to be disposed of, and finally lands back on the gripper.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DIY UAV &#x27;Widow&#x27;</title>
+        <published>2019-03-01T00:00:00+00:00</published>
+        <updated>2019-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/diy-uav-widow/"/>
+        <id>https://krepa098.github.io/projects/diy-uav-widow/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/diy-uav-widow/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;frame.d430ba802ad74b94.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;frame construction&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;pcb_v1.70712f341d51b462.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;assembled autopilot PCB (v1)&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;pcb_v2.7f0f21e0e15b42d7.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;assembled autopilot PCB (v2)&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;top.f07fa6778398d44b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;top side with status LEDs, SD card, and antenna&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;bottom.b81cde2f33f91d4c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;bottom side with ultrasonic sonar&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p6&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;widow&#x2F;flight.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;testing the stabilization&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p7&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;widow&#x2F;yaw.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;testing yaw&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;The scope of this project was set as follows:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;design &amp;amp; build the frame&lt;&#x2F;li&gt;
+&lt;li&gt;design &amp;amp; build of the flight controller electronics&lt;&#x2F;li&gt;
+&lt;li&gt;writing the firmware required to stability the UAV and make it fly&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;UAVs are inherently unstable systems with fast dynamics that require tight control loops to work (and yet do not require advanced control algorithms).&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;frame&quot;&gt;Frame&lt;&#x2F;h4&gt;
+&lt;p&gt;A UAV&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;diy-uav-widow&#x2F;#p1&quot;&gt;[frame]&lt;&#x2F;a&gt; has to be lightweight and yet stiff (thus usually made out of carbon fiber).
+With only limited tools at hand, the choice was made to use carbon fiber bars to tie the arms to the central hub.
+Other structural parts were printed on an FDM printer with the carbon bars exopy-glued to them.
+The PCBs were (ab)used as integral parts of the frame and also facilitated power distribution to the motors.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;flight-controller&quot;&gt;Flight Controller&lt;&#x2F;h4&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;diy-uav-widow&#x2F;#p2&quot;&gt;[flight controller]&lt;&#x2F;a&gt; featured an upper and a lower PCB.
+The lower PCB served as a simple power distribution board.
+The upper board was dedicated to the autopilot featuring:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;5V &lt;code&gt;buck converter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;3V3 LDO&lt;&#x2F;li&gt;
+&lt;li&gt;9DOF IMU&lt;&#x2F;li&gt;
+&lt;li&gt;Barometric pressure sensor (altitude)&lt;&#x2F;li&gt;
+&lt;li&gt;SD card (logs)&lt;&#x2F;li&gt;
+&lt;li&gt;3V3 to 5V level shifter&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;STM32F4&lt;&#x2F;code&gt; (chosen for its floating point support, running the autopilot)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;ESP8266&lt;&#x2F;code&gt; (web interface), later an &lt;code&gt;ESP32&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Both boards were made identically apart from leaving the lower PCB unpopulated.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;firmware&quot;&gt;Firmware&lt;&#x2F;h4&gt;
+&lt;p&gt;The autopilot (running in the STM32F4) was written in &lt;code&gt;C++&lt;&#x2F;code&gt; from scratch (using a super-loop and ST&#x27;s HAL) and included several interesting challenges (apart from being one of my first STM32 microcontrollers firmware &lt;em&gt;not&lt;&#x2F;em&gt; using the Arduino framework):&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a &lt;code&gt;DSHOT&lt;&#x2F;code&gt; (ESC signal) protocol implementation using &lt;code&gt;DMA&lt;&#x2F;code&gt; and &lt;code&gt;timers&lt;&#x2F;code&gt; to lower the load on the MCU&lt;&#x2F;li&gt;
+&lt;li&gt;an &lt;code&gt;ibus&lt;&#x2F;code&gt; protocol decoder to receive the remote&#x27;s stick positions&lt;&#x2F;li&gt;
+&lt;li&gt;the communication between the STM32F4 and the ESP8266 over &lt;code&gt;SPI&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;real-time data &lt;code&gt;logging&lt;&#x2F;code&gt; to the SD card&lt;&#x2F;li&gt;
+&lt;li&gt;implementing and tuning attitude and heading &lt;code&gt;control&lt;&#x2F;code&gt; system (cascading PID)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;AHRS&lt;&#x2F;code&gt; filter implementation&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;FIR&lt;&#x2F;code&gt; low-pass filters to reduce the noise of the IMU measurements&lt;&#x2F;li&gt;
+&lt;li&gt;implementing a &lt;code&gt;web interface&lt;&#x2F;code&gt; on the ESP8266 with settings and real-time plotting (essentially serving as a replacement for functionality typically found in QGroundControl and the like)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Especially the last point was a unique and useful feature since current solutions require software to be installed that may not even be available on your platform, e.g., GCS.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;outcome&quot;&gt;Outcome&lt;&#x2F;h4&gt;
+&lt;p&gt;The project saw two revisions (v1 green PCB, v2 black PCB), with the latter adding support for an SD card and an altitude sensor.
+The UAV was stabilizing just fine (for both) - and yet it was never really flying well.
+At higher thrust levels the motor-induced vibrations were too strong and caused erratic behavior during flight (this nicely highlighted the importance of anti-vibration mounting schemes commonly observable on off-the-shelf autopilots).&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

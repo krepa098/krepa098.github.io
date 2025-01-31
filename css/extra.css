@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.avatar>center>img {
+    all: unset;
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    object-fit: cover;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: var(--accent);
+    overflow: hidden;
+}
+
+.encircle {
+    background-color: transparent;
+    border-color: var(--accent);
+    border-style: solid;
+    border-width: 1px;
+    color: var(--text);
+    padding: 2px 4px 2px 4px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.send-back {
+    padding-left: 1em;
+    background: var(--bg-accent);
+    border-color: var(--accent);
+    border-radius: 6px;
+    border-width: 0px;
+    border-style: dashed;
+}
+
+h2 {
+    margin-top: 1em;
+}
+
+.bar {
+    list-style: none;
+    list-style-position: outside;
+}
+
+.bar>li {
+    position: relative;
+}
+
+.bar>li:before {
+    content: '\25CF';
+    margin-left: -20px;
+    font-size: 20px;
+    color: var(--accent);
+}
+
+.bar>li::marker {
+    all: unset;
+}
+
+.bar>li:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    border-left: 3px solid var(--accent);
+    margin-left: -16px;
+    height: 110%;
+}
+
+.bar>li:first-of-type:after {
+    top: 0%;
+}
+
+.bar>li:last-of-type:after {
+    top: -0%;
+}
+
+.bar>li:hover::marker,
+.bar>li:hover::marker,
+.bar>li:hover::marker,
+.bar>li:hover::marker,
+.bar>li:hover::marker,
+.bar>li:hover::marker {
+    content: ''
+}
+
+.banner {
+    overflow: hidden;
+
+}
+
+.banner-element {
+    max-width: 90%;
+    max-height: 11em;
+    display: inline-block;
+
+}
+
+.plain {
+    all: unset;
+}
+
+.section {
+    /* text-decoration-thickness: 4px; */
+    text-decoration: underline dashed;
+    text-decoration-color: var(--accent);
+    color: var(--text);
+    font-weight: bold;
+}
+
+a.icon-button {
+    background-color: transparent;
+    border-color: var(--accent);
+    border-style: solid;
+    border-width: 1px;
+    color: var(--text);
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+    white-space: 3px;
+    display: inline-block;
+    margin: 8px;
+}
+
+a.icon-button:hover {
+    border-width: 2px;
+    padding: 3px 7px 3px 7px;
+}
+
+.tags-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-end
+}

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul&#x27;s Journal - paper</title>
+    <link rel="self" type="application/atom+xml" href="https://krepa098.github.io/tags/paper/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://krepa098.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-01T00:00:00+00:00</updated>
+    <id>https://krepa098.github.io/tags/paper/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Aerial Grasping: Simulation and Control</title>
+        <published>2024-05-01T00:00:00+00:00</published>
+        <updated>2024-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/"/>
+        <id>https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;uav.c349adffeffc32fc.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the aerial system: UAV, gripper, camera&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;semantic-model.75f8af520035f80b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;semantic gripper model&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;simulation-model.d5bb59a07a5e9d90.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;equivalent simulation model&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;control-diagram.2b6fcc672b169d37.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;block diagram of the controller with force and trajectory control subsystems&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;scenario.63087937eae64458.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the test scenario&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p6&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.c524522fe68f5e2c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;simulation &amp;amp; test environment&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p7&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;mpc&#x2F;demo.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;grasping the payload&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This project&#x27;s &lt;u&gt;main objective&lt;&#x2F;u&gt; was to automate aerial grasping with universal jamming grippers, as manually controlling this operation quickly overburdens the drone operator.
+This project had three distinct goals:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Convert the modeling insights gained &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;&quot;&gt;here&lt;&#x2F;a&gt; into a &lt;code&gt;gazebo&lt;&#x2F;code&gt; model&lt;&#x2F;li&gt;
+&lt;li&gt;Develop and implement a suitable &lt;code&gt;control strategy&lt;&#x2F;code&gt; for the universal jamming gripper&lt;&#x2F;li&gt;
+&lt;li&gt;Test the system in &lt;code&gt;simulation&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;simulation-model&quot;&gt;Simulation Model&lt;&#x2F;h4&gt;
+&lt;p&gt;Starting from the &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p2&quot;&gt;[mental model]&lt;&#x2F;a&gt; developed earlier, an &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p3&quot;&gt;[analogous model]&lt;&#x2F;a&gt; suitable for simulation had to be found.
+Since &lt;code&gt;gazebo&lt;&#x2F;code&gt; (the robotics simulator) cannot handle soft body dynamics, the gripper&#x27;s model had to be simplified to represent the important characteristics of the gripper, namely:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the transition from soft to rigid&lt;&#x2F;li&gt;
+&lt;li&gt;the change of volume (shrinking of the membrane) due to the variable air content in the membrane&lt;&#x2F;li&gt;
+&lt;li&gt;the elastic&#x2F;springy behavior depending on the air content&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;A precise model of the gripper&#x27;s membrane&#x27;s shape was not seen as a major factor in achieving a faithful simulation model (and it could not be achieved with gazebo alone).&lt;&#x2F;p&gt;
+&lt;p&gt;To achieve the requirements, the gripper was modeled as a uniaxial, variable spring acting on a disc shape attached to a prismatic joint.
+The force to apply to that joint is governed by the law developed previously, which depends on the depth of entry, and the air content in the membrane.
+A &lt;code&gt;gazebo plugin&lt;&#x2F;code&gt; applies force to the joint and provides feedback on the contact force.
+It also takes care of necessary &lt;code&gt;ros&lt;&#x2F;code&gt; integration and creates and breaks &#x27;joints&#x27; with the payload to grasp and release the payloads.
+The gripper was then &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p1&quot;&gt;[attached]&lt;&#x2F;a&gt; to a UAV and a simulated depth camera.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;control-strategy&quot;&gt;Control Strategy&lt;&#x2F;h4&gt;
+&lt;p&gt;The goal here is to have a reliable control strategy that:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;guides our UAV effectively towards the payload following a trajectory that preferably avoids obstacles it encounters&lt;&#x2F;li&gt;
+&lt;li&gt;keep a well-defined contact force between the gripper and the payload while the pumps are running&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The trajectory is obtained by repeatedly solving a non-linear optimization problem.
+This receding-horizon optimization scheme uses a simple kinematic model (the &#x27;dynamics&#x27; of the UAV) and a cost function that encourages the desired behaviors.
+The behaviors herein were:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;tracking (get closer to the goal)&lt;&#x2F;li&gt;
+&lt;li&gt;repulsion (stay away from obstacles)&lt;&#x2F;li&gt;
+&lt;li&gt;perception (keep the goal in the field of view)&lt;&#x2F;li&gt;
+&lt;li&gt;grasping (approach the goal from the top and minimize motion in the horizontal plane)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Upon contact with the payload, the control scheme is &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p4&quot;&gt;[switched from trajectory control to force control]&lt;&#x2F;a&gt;.
+During pump activation, a sliding mode controller keeps the contact force close to the desired level.
+This is an important aspect as any loss in contact force would result in a reduced contact surface and therefore increase the likelihood of a failed grasp.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;virtual-experiment&quot;&gt;Virtual Experiment&lt;&#x2F;h4&gt;
+&lt;p&gt;To conclude, a test scenario was set up where a payload is a priori roughly located in a &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p5&quot;&gt;[parking garage]&lt;&#x2F;a&gt;.
+There are plenty of obstacles to be avoided by the UAV.
+The camera is used to refine the goal position as soon as it enters its field of view.
+In this scenario, the aerial system takes off, travels, refines the location of the payload, &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p7&quot;&gt;[picks it up]&lt;&#x2F;a&gt;, transports it to a safe area to be disposed of, and finally lands back on the gripper.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Universal Jamming Gripper</title>
+        <published>2023-06-01T00:00:00+00:00</published>
+        <updated>2023-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/universal-jamming-gripper/"/>
+        <id>https://krepa098.github.io/projects/universal-jamming-gripper/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/universal-jamming-gripper/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;early-prototype.92aecf5f8dceb00c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the proof of concept gripper&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;gripper-on-jig.da0d6276579b6683.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;prototype after several iterations&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;jig.7707354217576723.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;test jig to quantify the gripper&amp;#x27;s capabilities&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;controller.3a256587a1dd342c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the gripper&amp;#x27;s controller&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;mold.a7cba8f15a057881.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;mold to cast the membrane&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p6&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;flask.59fe08243279b4d2.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;works over a wide range of geometries&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p7&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;nut.d2b86e3667b80c3b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the membrane wraps around the payloads&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p8&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.f4889a80347e2957.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;gripper attached to the UAV&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p9&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;trigger&#x2F;grasp-uav2.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;grasping a test payload&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p10&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;trigger&#x2F;grasp2.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;aerial grasping with a variety of objects&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;u&gt;Objective&lt;&#x2F;u&gt;: Improve the limited grasping capabilities of aerial robots such as UAVs, especially with regard to objects with a priori unknown shape and size.&lt;&#x2F;p&gt;
+&lt;p&gt;Grasping with a drone is inherently difficult:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the vehicle is underactuated, i.e., its degrees of freedom are coupled (moving in a given direction requires tilting the UAV&#x27;s body), which results in an overall &#x27;floaty&#x27; behavior&lt;&#x2F;li&gt;
+&lt;li&gt;ground effects and other disturbances degrade the positional accuracy&lt;&#x2F;li&gt;
+&lt;li&gt;external forces can easily destabilize the system&lt;&#x2F;li&gt;
+&lt;li&gt;traditional grippers often have a preferred grasp orientation or require specific features to establish a solid hold on the payload&lt;&#x2F;li&gt;
+&lt;li&gt;restrictive weight, power, and size envelope for the grasping hardware&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;Universal jamming grippers&lt;&#x2F;code&gt; are a promising avenue to &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p6&quot;&gt;[address the versatility problem]&lt;&#x2F;a&gt; and have been used on industrial robots for some time.
+In essence, they are a soft membrane filled with a granular material that hardens under, e.g., a vacuum.
+Under contact, the soft membrane nestles up against the payload.
+This typically requires a fair bit of force which is problematic for UAVs.
+A solid grasp is then established by hardening the granular material, essentially locking the object in place.
+The holding force is typically a mixture of suction force, surface friction, and mechanical interlocking.&lt;&#x2F;p&gt;
+&lt;p&gt;Whether this principle would perform well on UAVs and what modifications it would require to meet the objectives was yet unknown.
+Moreover, the boundary conditions in an industrial robot context are quite different.
+An &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p1&quot;&gt;[early proof of concept]&lt;&#x2F;a&gt; showed promising results.
+However, it required a relatively high vacuum (more than the onboard pneumatic system could provide) and also a rather high contact force.
+After some experiments with different granular materials, membrane compositions, and shapes, a satisfactory compromise was found resulting in the &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p2&quot;&gt;[final prototype]&lt;&#x2F;a&gt;.
+In particular:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a substantially lower activation force than others&lt;&#x2F;li&gt;
+&lt;li&gt;a favorable weight-to-holding force ratio thanks to its sticky membrane&lt;&#x2F;li&gt;
+&lt;li&gt;a compact size and a low weight thanks to operating with relatively small pumps, fitting within the small payload compartment of the UAV&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The gripper underwent rigorous validation and testing on a &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p3&quot;&gt;[test jig]&lt;&#x2F;a&gt;, which also offered the necessary insights to create a quantifiable model of the gripper that could be used in simulation environments.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p4&quot;&gt;[controller board]&lt;&#x2F;a&gt; is directly powered by the UAV&#x27;s battery and is in charge of the pneumatic system.
+It exchanges data with its onboard computer via USB serial (which in turn shares it via &lt;code&gt;ros&lt;&#x2F;code&gt;).
+It also features:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a ∆ΣADC and a programmable gain amplifier for contact force measurements&lt;&#x2F;li&gt;
+&lt;li&gt;a pressure sensor to monitor the air pressure inside the membrane&lt;&#x2F;li&gt;
+&lt;li&gt;an STM32 microcontroller running &lt;code&gt;FreeRTOS&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;a &lt;code&gt;state machine&lt;&#x2F;code&gt; implementing an optimal grasping procedure (switching the pumps and valves based on sensory feedback)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Last but not least, some aerial grasping tests were performed in the lab.
+The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p8&quot;&gt;[gripper attached to a UAV]&lt;&#x2F;a&gt; was used to &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p9&quot;&gt;[lift several dummy payloads]&lt;&#x2F;a&gt; of various sizes, shapes, and weights.
+This resulted in the first aerial platform equipped with a universal jamming gripper paving the way toward ever more capable UAVs.
+The experiment also showed that the gripper can assume the role of the UAV&#x27;s landing gear, which saves weight and further gives the UAV the ability to attach itself to certain features (e.g., a fence post).&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cooperative Localization of UAVs</title>
+        <published>2017-08-01T00:00:00+00:00</published>
+        <updated>2017-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/cooperative-localization-of-uavs/"/>
+        <id>https://krepa098.github.io/projects/cooperative-localization-of-uavs/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/cooperative-localization-of-uavs/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.735a7013a2503dbf.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;UAV equipped with cameras and ArUco markers&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;lab.296a7ab9e73492f9.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;experimental setup (SnT aero lab)&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;graph.279ad82e1525e66b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;Most UAVs nowadays are equipped with CCD cameras and also have enough grunt to do image processing in real-time.
+This capability can be used to improve (or enable) the localization of mobile robots.
+A marker attached to the UAV&#x27;s body and the software &lt;code&gt;Atlas&lt;&#x2F;code&gt; written for this project is all that is needed to enable this functionality.&lt;&#x2F;p&gt;
+&lt;p&gt;Herein, we used &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;cooperative-localization-of-uavs&#x2F;#p1&quot;&gt;[ARUCO]&lt;&#x2F;a&gt; markers (robust planar markers) from which a pose in the camera&#x27;s frame is calculated.
+&lt;code&gt;Atlas&lt;&#x2F;code&gt; then dynamically generates a graph structure where&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;code&gt;nodes&lt;&#x2F;code&gt; are robots&lt;&#x2F;li&gt;
+&lt;li&gt;and the &lt;code&gt;edges&lt;&#x2F;code&gt; are relative transformations between them (including the covariance&#x2F;standard deviation).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The edges between the nodes are automatically removed after some given time of inactivity (e.g., loss of visual contact).
+At any given time, an estimate of a robot&#x27;s pose with respect to the world frame can be obtained by processing all transformations up to the world frame with a &lt;code&gt;fusion algorithm&lt;&#x2F;code&gt; (here a simple average weighted by the standard deviation of the sensor).&lt;&#x2F;p&gt;
+&lt;p&gt;Possible &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;cooperative-localization-of-uavs&#x2F;#p3&quot;&gt;[applications]&lt;&#x2F;a&gt; include scenarios where some of the robots are devoid of traditional means of localization (e.g., GPS).
+However also if all UAVs are equipped with GPS receivers, their pose estimates can be refined with additional relative pose measurements.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

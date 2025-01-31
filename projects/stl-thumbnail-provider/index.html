@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>STL Thumbnail Provider</title>
+
+
+
+<meta name="title" content="STL Thumbnail Provider">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://krepa098.github.io/projects/stl-thumbnail-provider/">
+
+<meta property="og:site_name" content="Paul&#x27;s Journal">
+
+
+<meta property="og:title" content="STL Thumbnail Provider">
+
+
+
+
+
+<link rel="canonical" href="https://krepa098.github.io/projects/stl-thumbnail-provider/">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/suCSS.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/extra.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/gallery.css" />
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://krepa098.github.io/js/script.js" defer></script>
+<script src="https://krepa098.github.io/js/jquery.min.js"></script>
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;home&#x2F;
+      </a>
+    
+      <a href="&#x2F;projects" class="">
+        
+        &#x2F;projects&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://krepa098.github.io/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://krepa098.github.io/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<div><a href="..">..</a>/<span class="accent-data">stl-thumbnail-provider</span></div>
+<time datetime="2021-01-01">published on: <span class="accent-data"> 01&#x2F;2021</span></time>
+
+
+<div class="">
+  tags:
+  
+  <a href="/tags/open-source">&#47;open source&#47;</a>
+  
+  <a href="/tags/software">&#47;software&#47;</a>
+  
+</div>
+
+
+
+
+<hr>
+<h1>STL Thumbnail Provider</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+  A thumbnail image generator for .stl files (commonly used in 3D printing) using software rasterizing, with implementations for Windows, Gnome, and KDE desktop environments.
+</div>
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+<div class="gallery-scroll-container send-back">
+
+    <!-- scrolling container -->
+    <div class="gallery-row" id="gallery-scrollbar">
+        <!-- gallery elements -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p1">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;preview.257cfbf39401b474.jpg" id="content">
+            
+
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p2">
+            
+            <video id="content" autoplay loop playsinline disablePictureInPicture muted>
+                <source src="https://krepa098.github.io/raw/projects/stl2thumbnail/turntable.mp4" type="video/mp4" />
+            </video>
+            
+
+            
+        </div>
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <!-- next and previous buttons -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <a class="gallery-prev hidden-mobile">&#10094;</a>
+    <a class="gallery-next hidden-mobile">&#10095;</a>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="gallery-popover" id="gallery-popover"></div>
+
+    <!-- scroll script -->
+    <script src="https://krepa098.github.io/js/gallery.js"></script>
+
+</div><h3 id="description">Description</h3>
+<p>This project was born out of the need to quickly find my <code>.stl</code> files on my cluttered desktop.</p>
+<p>In essence, this is a library that parses a given .stl, generates a list of triangles, and then uses software rasterizing to render an image.
+This image is then handled according to the desktop environment's thumbnail infrastructure's needs.</p>
+<p><code>Software rasterizing</code> was a conscious choice for a multitude of reasons:</p>
+<ul>
+<li>portability between different platforms</li>
+<li>to avoid driver issues and limitations due to sandboxing and library size (e.g., Gnome uses sandboxing and thumbnail generators have to access to the GPU).</li>
+</ul>
+<p>The rendering quality is a bit lower and slower compared to GPU-accelerated rendering.
+However it could technically run even on a MCU found in 3D printers as the complete model doesn't even need to be kept in memory, and triangles can be read and rendered one by one.</p>
+<p>The rendering process is as follows:</p>
+<ul>
+<li>for each triangle in the stl
+<ul>
+<li>transform triangle from world- to screen-space</li>
+<li>calculate its bounds in screen-space</li>
+<li>iterate over the bounds and check if the pixel <code>P</code> is inside the triangle
+<ul>
+<li>calculate <code>P</code>'s color (considering the light source and material properties)</li>
+<li>perform a z-test (check if it is closer to the camera than the current <code>P</code>) and put <code>P</code>'s color into the image</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>The initial project was written in <code>C++</code> and then ported to <code>Rust</code> at a later stage with support for the Windows desktop and automated builds on Github's <code>CI/CD</code> infrastructure.
+The Windows support is particularly challenging as it requires implementing a poorly documented <code>COM</code> interface, registering the <code>.dll</code> upon installation, and setting the required registry keys.
+Gnome is a lot simpler; it simply runs an executable that generates a picture at a given location.
+Finally, KDE wants to see a shared library implementing the ThumbCreator interface.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<div class="send-back">
+  Resources:
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;github.com&#x2F;krepa098&#x2F;stl2thumbnail_rs" class="icon-button"><i class="fa fa-code" aria-hidden="true"></i> code</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+  <div>
+    <p>Theme and color theme licensed under <a target="_blank" rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/Licence_MIT">MIT</a>.<br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using a fork of
+      the <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme, <a
+        target="_blank" rel="noopener noreferrer" href="https://speyll.github.io/suCSS/">suCSS</a> framework &amp; <a
+        target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a>.<br>
+    </p>
+
+  </div>
+  
+</div>
+      </footer>
+</body>
+</html>

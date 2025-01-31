@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>ESDF Generation</title>
+
+
+
+<meta name="title" content="ESDF Generation">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://krepa098.github.io/projects/esdf-generation/">
+
+<meta property="og:site_name" content="Paul&#x27;s Journal">
+
+
+<meta property="og:title" content="ESDF Generation">
+
+
+
+
+
+<link rel="canonical" href="https://krepa098.github.io/projects/esdf-generation/">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/suCSS.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/extra.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/gallery.css" />
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://krepa098.github.io/js/script.js" defer></script>
+<script src="https://krepa098.github.io/js/jquery.min.js"></script>
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;home&#x2F;
+      </a>
+    
+      <a href="&#x2F;projects" class="">
+        
+        &#x2F;projects&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://krepa098.github.io/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://krepa098.github.io/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<div><a href="..">..</a>/<span class="accent-data">esdf-generation</span></div>
+<time datetime="2024-03-01">published on: <span class="accent-data"> 03&#x2F;2024</span></time>
+
+
+<div class="">
+  tags:
+  
+  <a href="/tags/open-source">&#47;open source&#47;</a>
+  
+  <a href="/tags/software">&#47;software&#47;</a>
+  
+</div>
+
+
+
+
+<hr>
+<h1>ESDF Generation</h1>
+
+
+
+
+
+
+
+<div>
+  An implementation &amp; visualization of a Euclidean signed distance field algorithm (ESDF). ESDFs have numerous applications in robotics, medicine, and computer graphics.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+<div class="gallery-scroll-container send-back">
+
+    <!-- scrolling container -->
+    <div class="gallery-row" id="gallery-scrollbar">
+        <!-- gallery elements -->
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p1">
+            
+            <video id="content" autoplay loop playsinline disablePictureInPicture muted>
+                <source src="https://krepa098.github.io/raw/projects/esdf/generation.mp4" type="video/mp4" />
+            </video>
+            
+
+            
+            <div class="gallery-image-caption no-user-select">the blockwise esdf generation process</div>
+            
+        </div>
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <!-- next and previous buttons -->
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="gallery-popover" id="gallery-popover"></div>
+
+    <!-- scroll script -->
+    <script src="https://krepa098.github.io/js/gallery.js"></script>
+
+</div><h3 id="description">Description</h3>
+<p>Euclidean Signed Distance Fields (ESDF) are used to infer the closest distance at any point to the nearest surface in a voxel or pixel grid.
+As such, they are used in robotics, e.g., for navigation purposes, as an instrument to account for the robot's dimensions.
+Considering the distances stored in the grid, the robot's path can be kept clear from any obstacles simply by excluding cells with a distance below a given threshold.</p>
+<p>The implementation of the ESDF algorithm shown <a href="https://krepa098.github.io/projects/esdf-generation/#p1">[here]</a> is derived from the <code>nvblox</code> algorithm <sup class="footnote-reference"><a href="#1">1</a></sup>, a highly optimized GPU-accelerated algorithm that works on a block-by-block (chunks) basis.</p>
+<p>The core algorithm is divided into two phases:</p>
+<ul>
+<li>sweep (staying within the block boundaries)</li>
+<li>propagation (crossing the block boundaries)</li>
+</ul>
+<p>During the sweep phase, the distances to any given surface in the block are calculated along all axes of the grid and in both directions.
+Thereby the distance of a cell is only updated if a smaller distance is found.
+The propagate phase accesses the neighboring blocks to propagate distances across boundaries.
+The algorithm stops once no more changes are made.</p>
+<p>The sites (block index closest to the surface) are for bookkeeping purposes.
+In case of a block update (changed surfaces), all blocks containing sites of this block's index need to be cleared and reevaluated (thus enabling partial updates).</p>
+<p>The nature of the algorithm allows easy parallel execution of the sweep phase since they do not cross block boundaries.</p>
+<p>This project features a CPU-based implementation and a naïve GPU implementation using <code>compute shaders</code> on top of <code>wgpu</code>.
+The current GPU implementation is slower due to excessive buffer transfers.</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>Millane, Alexander, et al. "nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping." arXiv preprint arXiv:2311.00626 (2023).</p>
+</div>
+
+
+
+
+
+
+
+
+<br>
+<div class="send-back">
+  Resources:
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;github.com&#x2F;krepa098&#x2F;esdf-vis" class="icon-button"><i class="fa fa-code" aria-hidden="true"></i> code</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+  <div>
+    <p>Theme and color theme licensed under <a target="_blank" rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/Licence_MIT">MIT</a>.<br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using a fork of
+      the <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme, <a
+        target="_blank" rel="noopener noreferrer" href="https://speyll.github.io/suCSS/">suCSS</a> framework &amp; <a
+        target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a>.<br>
+    </p>
+
+  </div>
+  
+</div>
+      </footer>
+</body>
+</html>

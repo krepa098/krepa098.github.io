@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul&#x27;s Journal - software</title>
+    <link rel="self" type="application/atom+xml" href="https://krepa098.github.io/tags/software/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://krepa098.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-12-01T00:00:00+00:00</updated>
+    <id>https://krepa098.github.io/tags/software/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Robot Control Unit</title>
+        <published>2024-12-01T00:00:00+00:00</published>
+        <updated>2024-12-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/robot-control-unit/"/>
+        <id>https://krepa098.github.io/projects/robot-control-unit/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/robot-control-unit/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;rcu.43c80241318e324a.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;controller board with stepper drivers&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;psu.3ee62c96b0aef5b0.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;power supply (25W) to provide power to the controller and onboard computer&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;assembly.a0d4908640b50800.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;test fitting the components&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;robot-control-unit&#x2F;#p1&quot;&gt;[hardware assembly]&lt;&#x2F;a&gt; was made for an indoor differential drive robot with a two-axis gimbal.&lt;&#x2F;p&gt;
+&lt;p&gt;At its core is the controller board (center).
+It consists of:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a STM32F7 MCU&lt;&#x2F;li&gt;
+&lt;li&gt;6DOF IMU, 3DOF magnetometer&lt;&#x2F;li&gt;
+&lt;li&gt;4x configurable TMC stepper drivers with all bells and whistles hooked up&lt;&#x2F;li&gt;
+&lt;li&gt;connectors for an LCD, and several peripherals&lt;&#x2F;li&gt;
+&lt;li&gt;2x servo connectors&lt;&#x2F;li&gt;
+&lt;li&gt;1x ibus receiver&lt;&#x2F;li&gt;
+&lt;li&gt;1x serial connector (SWD + UART) to the onboard computer (Raspberry Pi)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The board is programmable remotely via the Raspberry&#x27;s GPIO port and &lt;code&gt;openocd&lt;&#x2F;code&gt;.
+During the development of the robot, this has proven not only to be a huge time saver but it also frees the robot of all wires that would otherwise restrain it in its motion.&lt;&#x2F;p&gt;
+&lt;p&gt;Its primary function is to serve as an interface between the onboard computer and the hardware.
+It also takes care of all the critical real-time tasks such as step generation (ramp profiles), AHRS updates, reading the remote control inputs, etc.
+Finally, it also assumes safety-critical functions such as preventing the robot from driving down a stairwell or colliding with obstacles.&lt;&#x2F;p&gt;
+&lt;p&gt;The board is powered by a &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;robot-control-unit&#x2F;#p2&quot;&gt;[5V, 25W buck converter]&lt;&#x2F;a&gt; using the &lt;code&gt;AP64501&lt;&#x2F;code&gt; from Analog Devices, the same chip also used on Raspberry&#x27;s compute module carrier board.
+Power monitoring also takes place here.
+Since the robot operates on batteries, it is important to keep track of its voltage and the energy it consumes.&lt;&#x2F;p&gt;
+&lt;p&gt;The firmware of this board is a bit unusual and breaks with the custom of being written in the languages traditionally used for embedded systems, namely C or C++.
+Instead, it is written from the ground up in &lt;code&gt;rust&lt;&#x2F;code&gt; for two good reasons:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;correctness&lt;&#x2F;strong&gt;.
+Every sufficiently complex software can be affected by &lt;code&gt;memory corruption&lt;&#x2F;code&gt; (e.g., due to a dangling pointer), which is not only hard to spot,  but also extremely challenging to reproduce and debug.
+Even worse, it can go unnoticed, until it happens in the field where the system cannot be serviced and&#x2F;or cause damage.
+Of course, rigorous coding discipline and best practices get you pretty far in C&#x2F;C++, but having the compiler eliminate a whole range of possible bugs is a huge win &lt;em&gt;and a competitive edge&lt;&#x2F;em&gt;.
+If it compiles, it works (apart from logic errors).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;async&lt;&#x2F;strong&gt;.
+Contrary to C&#x2F;C++, &lt;code&gt;async&lt;&#x2F;code&gt; functionality is a core part of the &lt;code&gt;rust&lt;&#x2F;code&gt; language.
+It enables fearless concurrent programming (tasks scheduled by an executor to run on a single core) written as if executed sequentially.
+This is beneficial for almost anything IO bound such as web servers, databases, &lt;em&gt;and also embedded systems&lt;&#x2F;em&gt;.
+While MCUs have hardware built in (DMA) to offload IO operations and to keep the application running, this can become quite a burden to manage properly often resulting in complex state machines.
+By writing this code asynchronously, most of the complexity goes away.
+Herein, the &lt;code&gt;rtic&lt;&#x2F;code&gt; framework was used with the &lt;code&gt;embassy-stm32&lt;&#x2F;code&gt; HAL.
+The former provides the scaffolding (similar to FreeRTOS), and the latter provides access to the STM32 peripherals and also implements the needed &lt;code&gt;traits&lt;&#x2F;code&gt; for async execution.
+Notice that rust async uses cooperative scheduling, as opposed to preemptive scheduling in FreeRTOS.
+A noticeable advantage of this approach is that there is no separate stack per task and thus no stack size tuning, faster task switches, and overall better resource utilization &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.
+A possible downside is that tasks that don&#x27;t yield can starve other tasks.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;tooling&lt;&#x2F;strong&gt;
+Embedded rust has some impressive tools and libraries such as &lt;code&gt;defmt&lt;&#x2F;code&gt; for very efficient, lightweight data logging.
+&lt;code&gt;embedded-hal&lt;&#x2F;code&gt; enables portability between platforms by providing a set of useful traits.
+&lt;code&gt;probe-rs&lt;&#x2F;code&gt; is the de facto standard for flashing and debugging.
+&lt;code&gt;defmt-test&lt;&#x2F;code&gt; provides a hardness to run &lt;code&gt;unit tests&lt;&#x2F;code&gt; on bare metal with relative ease.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Overall, the embedded rust ecosystem has matured massively over the last couple of years.
+Some vendors (espressif and infineon) even started providing official support for their hardware, while others are still a pure community effort (STM32).&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tweedegolf.nl&#x2F;en&#x2F;blog&#x2F;65&#x2F;async-rust-vs-rtos-showdown&quot;&gt;https:&#x2F;&#x2F;tweedegolf.nl&#x2F;en&#x2F;blog&#x2F;65&#x2F;async-rust-vs-rtos-showdown&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;interrupt.memfault.com&#x2F;blog&#x2F;embedded-async-rust&quot;&gt;https:&#x2F;&#x2F;interrupt.memfault.com&#x2F;blog&#x2F;embedded-async-rust&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Aerial Grasping: Simulation and Control</title>
+        <published>2024-05-01T00:00:00+00:00</published>
+        <updated>2024-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/"/>
+        <id>https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/aerial-grasping-simulation-and-control/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;uav.c349adffeffc32fc.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the aerial system: UAV, gripper, camera&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;semantic-model.75f8af520035f80b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;semantic gripper model&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;simulation-model.d5bb59a07a5e9d90.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;equivalent simulation model&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;control-diagram.2b6fcc672b169d37.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;block diagram of the controller with force and trajectory control subsystems&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;scenario.63087937eae64458.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the test scenario&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p6&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.c524522fe68f5e2c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;simulation &amp;amp; test environment&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p7&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;mpc&#x2F;demo.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;grasping the payload&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This project&#x27;s &lt;u&gt;main objective&lt;&#x2F;u&gt; was to automate aerial grasping with universal jamming grippers, as manually controlling this operation quickly overburdens the drone operator.
+This project had three distinct goals:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Convert the modeling insights gained &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;&quot;&gt;here&lt;&#x2F;a&gt; into a &lt;code&gt;gazebo&lt;&#x2F;code&gt; model&lt;&#x2F;li&gt;
+&lt;li&gt;Develop and implement a suitable &lt;code&gt;control strategy&lt;&#x2F;code&gt; for the universal jamming gripper&lt;&#x2F;li&gt;
+&lt;li&gt;Test the system in &lt;code&gt;simulation&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;simulation-model&quot;&gt;Simulation Model&lt;&#x2F;h4&gt;
+&lt;p&gt;Starting from the &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p2&quot;&gt;[mental model]&lt;&#x2F;a&gt; developed earlier, an &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p3&quot;&gt;[analogous model]&lt;&#x2F;a&gt; suitable for simulation had to be found.
+Since &lt;code&gt;gazebo&lt;&#x2F;code&gt; (the robotics simulator) cannot handle soft body dynamics, the gripper&#x27;s model had to be simplified to represent the important characteristics of the gripper, namely:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the transition from soft to rigid&lt;&#x2F;li&gt;
+&lt;li&gt;the change of volume (shrinking of the membrane) due to the variable air content in the membrane&lt;&#x2F;li&gt;
+&lt;li&gt;the elastic&#x2F;springy behavior depending on the air content&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;A precise model of the gripper&#x27;s membrane&#x27;s shape was not seen as a major factor in achieving a faithful simulation model (and it could not be achieved with gazebo alone).&lt;&#x2F;p&gt;
+&lt;p&gt;To achieve the requirements, the gripper was modeled as a uniaxial, variable spring acting on a disc shape attached to a prismatic joint.
+The force to apply to that joint is governed by the law developed previously, which depends on the depth of entry, and the air content in the membrane.
+A &lt;code&gt;gazebo plugin&lt;&#x2F;code&gt; applies force to the joint and provides feedback on the contact force.
+It also takes care of necessary &lt;code&gt;ros&lt;&#x2F;code&gt; integration and creates and breaks &#x27;joints&#x27; with the payload to grasp and release the payloads.
+The gripper was then &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p1&quot;&gt;[attached]&lt;&#x2F;a&gt; to a UAV and a simulated depth camera.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;control-strategy&quot;&gt;Control Strategy&lt;&#x2F;h4&gt;
+&lt;p&gt;The goal here is to have a reliable control strategy that:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;guides our UAV effectively towards the payload following a trajectory that preferably avoids obstacles it encounters&lt;&#x2F;li&gt;
+&lt;li&gt;keep a well-defined contact force between the gripper and the payload while the pumps are running&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The trajectory is obtained by repeatedly solving a non-linear optimization problem.
+This receding-horizon optimization scheme uses a simple kinematic model (the &#x27;dynamics&#x27; of the UAV) and a cost function that encourages the desired behaviors.
+The behaviors herein were:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;tracking (get closer to the goal)&lt;&#x2F;li&gt;
+&lt;li&gt;repulsion (stay away from obstacles)&lt;&#x2F;li&gt;
+&lt;li&gt;perception (keep the goal in the field of view)&lt;&#x2F;li&gt;
+&lt;li&gt;grasping (approach the goal from the top and minimize motion in the horizontal plane)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Upon contact with the payload, the control scheme is &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p4&quot;&gt;[switched from trajectory control to force control]&lt;&#x2F;a&gt;.
+During pump activation, a sliding mode controller keeps the contact force close to the desired level.
+This is an important aspect as any loss in contact force would result in a reduced contact surface and therefore increase the likelihood of a failed grasp.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;virtual-experiment&quot;&gt;Virtual Experiment&lt;&#x2F;h4&gt;
+&lt;p&gt;To conclude, a test scenario was set up where a payload is a priori roughly located in a &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p5&quot;&gt;[parking garage]&lt;&#x2F;a&gt;.
+There are plenty of obstacles to be avoided by the UAV.
+The camera is used to refine the goal position as soon as it enters its field of view.
+In this scenario, the aerial system takes off, travels, refines the location of the payload, &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;aerial-grasping-simulation-and-control&#x2F;#p7&quot;&gt;[picks it up]&lt;&#x2F;a&gt;, transports it to a safe area to be disposed of, and finally lands back on the gripper.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ESDF Generation</title>
+        <published>2024-03-01T00:00:00+00:00</published>
+        <updated>2024-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/esdf-generation/"/>
+        <id>https://krepa098.github.io/projects/esdf-generation/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/esdf-generation/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;esdf&#x2F;generation.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the blockwise esdf generation process&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;Euclidean Signed Distance Fields (ESDF) are used to infer the closest distance at any point to the nearest surface in a voxel or pixel grid.
+As such, they are used in robotics, e.g., for navigation purposes, as an instrument to account for the robot&#x27;s dimensions.
+Considering the distances stored in the grid, the robot&#x27;s path can be kept clear from any obstacles simply by excluding cells with a distance below a given threshold.&lt;&#x2F;p&gt;
+&lt;p&gt;The implementation of the ESDF algorithm shown &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;esdf-generation&#x2F;#p1&quot;&gt;[here]&lt;&#x2F;a&gt; is derived from the &lt;code&gt;nvblox&lt;&#x2F;code&gt; algorithm &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, a highly optimized GPU-accelerated algorithm that works on a block-by-block (chunks) basis.&lt;&#x2F;p&gt;
+&lt;p&gt;The core algorithm is divided into two phases:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;sweep (staying within the block boundaries)&lt;&#x2F;li&gt;
+&lt;li&gt;propagation (crossing the block boundaries)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;During the sweep phase, the distances to any given surface in the block are calculated along all axes of the grid and in both directions.
+Thereby the distance of a cell is only updated if a smaller distance is found.
+The propagate phase accesses the neighboring blocks to propagate distances across boundaries.
+The algorithm stops once no more changes are made.&lt;&#x2F;p&gt;
+&lt;p&gt;The sites (block index closest to the surface) are for bookkeeping purposes.
+In case of a block update (changed surfaces), all blocks containing sites of this block&#x27;s index need to be cleared and reevaluated (thus enabling partial updates).&lt;&#x2F;p&gt;
+&lt;p&gt;The nature of the algorithm allows easy parallel execution of the sweep phase since they do not cross block boundaries.&lt;&#x2F;p&gt;
+&lt;p&gt;This project features a CPU-based implementation and a naïve GPU implementation using &lt;code&gt;compute shaders&lt;&#x2F;code&gt; on top of &lt;code&gt;wgpu&lt;&#x2F;code&gt;.
+The current GPU implementation is slower due to excessive buffer transfers.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Millane, Alexander, et al. &quot;nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping.&quot; arXiv preprint arXiv:2311.00626 (2023).&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>STL Thumbnail Provider</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/stl-thumbnail-provider/"/>
+        <id>https://krepa098.github.io/projects/stl-thumbnail-provider/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/stl-thumbnail-provider/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.257cfbf39401b474.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;stl2thumbnail&#x2F;turntable.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This project was born out of the need to quickly find my &lt;code&gt;.stl&lt;&#x2F;code&gt; files on my cluttered desktop.&lt;&#x2F;p&gt;
+&lt;p&gt;In essence, this is a library that parses a given .stl, generates a list of triangles, and then uses software rasterizing to render an image.
+This image is then handled according to the desktop environment&#x27;s thumbnail infrastructure&#x27;s needs.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;Software rasterizing&lt;&#x2F;code&gt; was a conscious choice for a multitude of reasons:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;portability between different platforms&lt;&#x2F;li&gt;
+&lt;li&gt;to avoid driver issues and limitations due to sandboxing and library size (e.g., Gnome uses sandboxing and thumbnail generators have to access to the GPU).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The rendering quality is a bit lower and slower compared to GPU-accelerated rendering.
+However it could technically run even on a MCU found in 3D printers as the complete model doesn&#x27;t even need to be kept in memory, and triangles can be read and rendered one by one.&lt;&#x2F;p&gt;
+&lt;p&gt;The rendering process is as follows:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;for each triangle in the stl
+&lt;ul&gt;
+&lt;li&gt;transform triangle from world- to screen-space&lt;&#x2F;li&gt;
+&lt;li&gt;calculate its bounds in screen-space&lt;&#x2F;li&gt;
+&lt;li&gt;iterate over the bounds and check if the pixel &lt;code&gt;P&lt;&#x2F;code&gt; is inside the triangle
+&lt;ul&gt;
+&lt;li&gt;calculate &lt;code&gt;P&lt;&#x2F;code&gt;&#x27;s color (considering the light source and material properties)&lt;&#x2F;li&gt;
+&lt;li&gt;perform a z-test (check if it is closer to the camera than the current &lt;code&gt;P&lt;&#x2F;code&gt;) and put &lt;code&gt;P&lt;&#x2F;code&gt;&#x27;s color into the image&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The initial project was written in &lt;code&gt;C++&lt;&#x2F;code&gt; and then ported to &lt;code&gt;Rust&lt;&#x2F;code&gt; at a later stage with support for the Windows desktop and automated builds on Github&#x27;s &lt;code&gt;CI&#x2F;CD&lt;&#x2F;code&gt; infrastructure.
+The Windows support is particularly challenging as it requires implementing a poorly documented &lt;code&gt;COM&lt;&#x2F;code&gt; interface, registering the &lt;code&gt;.dll&lt;&#x2F;code&gt; upon installation, and setting the required registry keys.
+Gnome is a lot simpler; it simply runs an executable that generates a picture at a given location.
+Finally, KDE wants to see a shared library implementing the ThumbCreator interface.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cooperative Localization of UAVs</title>
+        <published>2017-08-01T00:00:00+00:00</published>
+        <updated>2017-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/cooperative-localization-of-uavs/"/>
+        <id>https://krepa098.github.io/projects/cooperative-localization-of-uavs/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/cooperative-localization-of-uavs/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.735a7013a2503dbf.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;UAV equipped with cameras and ArUco markers&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;lab.296a7ab9e73492f9.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;experimental setup (SnT aero lab)&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;graph.279ad82e1525e66b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;Most UAVs nowadays are equipped with CCD cameras and also have enough grunt to do image processing in real-time.
+This capability can be used to improve (or enable) the localization of mobile robots.
+A marker attached to the UAV&#x27;s body and the software &lt;code&gt;Atlas&lt;&#x2F;code&gt; written for this project is all that is needed to enable this functionality.&lt;&#x2F;p&gt;
+&lt;p&gt;Herein, we used &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;cooperative-localization-of-uavs&#x2F;#p1&quot;&gt;[ARUCO]&lt;&#x2F;a&gt; markers (robust planar markers) from which a pose in the camera&#x27;s frame is calculated.
+&lt;code&gt;Atlas&lt;&#x2F;code&gt; then dynamically generates a graph structure where&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;code&gt;nodes&lt;&#x2F;code&gt; are robots&lt;&#x2F;li&gt;
+&lt;li&gt;and the &lt;code&gt;edges&lt;&#x2F;code&gt; are relative transformations between them (including the covariance&#x2F;standard deviation).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The edges between the nodes are automatically removed after some given time of inactivity (e.g., loss of visual contact).
+At any given time, an estimate of a robot&#x27;s pose with respect to the world frame can be obtained by processing all transformations up to the world frame with a &lt;code&gt;fusion algorithm&lt;&#x2F;code&gt; (here a simple average weighted by the standard deviation of the sensor).&lt;&#x2F;p&gt;
+&lt;p&gt;Possible &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;cooperative-localization-of-uavs&#x2F;#p3&quot;&gt;[applications]&lt;&#x2F;a&gt; include scenarios where some of the robots are devoid of traditional means of localization (e.g., GPS).
+However also if all UAVs are equipped with GPS receivers, their pose estimates can be refined with additional relative pose measurements.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

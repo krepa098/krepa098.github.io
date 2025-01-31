@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Paul&#x27;s Journal - embedded</title>
+    <link rel="self" type="application/atom+xml" href="https://krepa098.github.io/tags/embedded/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://krepa098.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-12-01T00:00:00+00:00</updated>
+    <id>https://krepa098.github.io/tags/embedded/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Robot Control Unit</title>
+        <published>2024-12-01T00:00:00+00:00</published>
+        <updated>2024-12-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/robot-control-unit/"/>
+        <id>https://krepa098.github.io/projects/robot-control-unit/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/robot-control-unit/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;rcu.43c80241318e324a.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;controller board with stepper drivers&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;psu.3ee62c96b0aef5b0.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;power supply (25W) to provide power to the controller and onboard computer&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;assembly.a0d4908640b50800.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;test fitting the components&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;robot-control-unit&#x2F;#p1&quot;&gt;[hardware assembly]&lt;&#x2F;a&gt; was made for an indoor differential drive robot with a two-axis gimbal.&lt;&#x2F;p&gt;
+&lt;p&gt;At its core is the controller board (center).
+It consists of:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a STM32F7 MCU&lt;&#x2F;li&gt;
+&lt;li&gt;6DOF IMU, 3DOF magnetometer&lt;&#x2F;li&gt;
+&lt;li&gt;4x configurable TMC stepper drivers with all bells and whistles hooked up&lt;&#x2F;li&gt;
+&lt;li&gt;connectors for an LCD, and several peripherals&lt;&#x2F;li&gt;
+&lt;li&gt;2x servo connectors&lt;&#x2F;li&gt;
+&lt;li&gt;1x ibus receiver&lt;&#x2F;li&gt;
+&lt;li&gt;1x serial connector (SWD + UART) to the onboard computer (Raspberry Pi)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The board is programmable remotely via the Raspberry&#x27;s GPIO port and &lt;code&gt;openocd&lt;&#x2F;code&gt;.
+During the development of the robot, this has proven not only to be a huge time saver but it also frees the robot of all wires that would otherwise restrain it in its motion.&lt;&#x2F;p&gt;
+&lt;p&gt;Its primary function is to serve as an interface between the onboard computer and the hardware.
+It also takes care of all the critical real-time tasks such as step generation (ramp profiles), AHRS updates, reading the remote control inputs, etc.
+Finally, it also assumes safety-critical functions such as preventing the robot from driving down a stairwell or colliding with obstacles.&lt;&#x2F;p&gt;
+&lt;p&gt;The board is powered by a &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;robot-control-unit&#x2F;#p2&quot;&gt;[5V, 25W buck converter]&lt;&#x2F;a&gt; using the &lt;code&gt;AP64501&lt;&#x2F;code&gt; from Analog Devices, the same chip also used on Raspberry&#x27;s compute module carrier board.
+Power monitoring also takes place here.
+Since the robot operates on batteries, it is important to keep track of its voltage and the energy it consumes.&lt;&#x2F;p&gt;
+&lt;p&gt;The firmware of this board is a bit unusual and breaks with the custom of being written in the languages traditionally used for embedded systems, namely C or C++.
+Instead, it is written from the ground up in &lt;code&gt;rust&lt;&#x2F;code&gt; for two good reasons:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;correctness&lt;&#x2F;strong&gt;.
+Every sufficiently complex software can be affected by &lt;code&gt;memory corruption&lt;&#x2F;code&gt; (e.g., due to a dangling pointer), which is not only hard to spot,  but also extremely challenging to reproduce and debug.
+Even worse, it can go unnoticed, until it happens in the field where the system cannot be serviced and&#x2F;or cause damage.
+Of course, rigorous coding discipline and best practices get you pretty far in C&#x2F;C++, but having the compiler eliminate a whole range of possible bugs is a huge win &lt;em&gt;and a competitive edge&lt;&#x2F;em&gt;.
+If it compiles, it works (apart from logic errors).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;async&lt;&#x2F;strong&gt;.
+Contrary to C&#x2F;C++, &lt;code&gt;async&lt;&#x2F;code&gt; functionality is a core part of the &lt;code&gt;rust&lt;&#x2F;code&gt; language.
+It enables fearless concurrent programming (tasks scheduled by an executor to run on a single core) written as if executed sequentially.
+This is beneficial for almost anything IO bound such as web servers, databases, &lt;em&gt;and also embedded systems&lt;&#x2F;em&gt;.
+While MCUs have hardware built in (DMA) to offload IO operations and to keep the application running, this can become quite a burden to manage properly often resulting in complex state machines.
+By writing this code asynchronously, most of the complexity goes away.
+Herein, the &lt;code&gt;rtic&lt;&#x2F;code&gt; framework was used with the &lt;code&gt;embassy-stm32&lt;&#x2F;code&gt; HAL.
+The former provides the scaffolding (similar to FreeRTOS), and the latter provides access to the STM32 peripherals and also implements the needed &lt;code&gt;traits&lt;&#x2F;code&gt; for async execution.
+Notice that rust async uses cooperative scheduling, as opposed to preemptive scheduling in FreeRTOS.
+A noticeable advantage of this approach is that there is no separate stack per task and thus no stack size tuning, faster task switches, and overall better resource utilization &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.
+A possible downside is that tasks that don&#x27;t yield can starve other tasks.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;tooling&lt;&#x2F;strong&gt;
+Embedded rust has some impressive tools and libraries such as &lt;code&gt;defmt&lt;&#x2F;code&gt; for very efficient, lightweight data logging.
+&lt;code&gt;embedded-hal&lt;&#x2F;code&gt; enables portability between platforms by providing a set of useful traits.
+&lt;code&gt;probe-rs&lt;&#x2F;code&gt; is the de facto standard for flashing and debugging.
+&lt;code&gt;defmt-test&lt;&#x2F;code&gt; provides a hardness to run &lt;code&gt;unit tests&lt;&#x2F;code&gt; on bare metal with relative ease.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Overall, the embedded rust ecosystem has matured massively over the last couple of years.
+Some vendors (espressif and infineon) even started providing official support for their hardware, while others are still a pure community effort (STM32).&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tweedegolf.nl&#x2F;en&#x2F;blog&#x2F;65&#x2F;async-rust-vs-rtos-showdown&quot;&gt;https:&#x2F;&#x2F;tweedegolf.nl&#x2F;en&#x2F;blog&#x2F;65&#x2F;async-rust-vs-rtos-showdown&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;interrupt.memfault.com&#x2F;blog&#x2F;embedded-async-rust&quot;&gt;https:&#x2F;&#x2F;interrupt.memfault.com&#x2F;blog&#x2F;embedded-async-rust&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Universal Jamming Gripper</title>
+        <published>2023-06-01T00:00:00+00:00</published>
+        <updated>2023-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/universal-jamming-gripper/"/>
+        <id>https://krepa098.github.io/projects/universal-jamming-gripper/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/universal-jamming-gripper/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;early-prototype.92aecf5f8dceb00c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the proof of concept gripper&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;gripper-on-jig.da0d6276579b6683.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;prototype after several iterations&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;jig.7707354217576723.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;test jig to quantify the gripper&amp;#x27;s capabilities&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;controller.3a256587a1dd342c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the gripper&amp;#x27;s controller&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;mold.a7cba8f15a057881.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;mold to cast the membrane&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p6&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;flask.59fe08243279b4d2.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;works over a wide range of geometries&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p7&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;nut.d2b86e3667b80c3b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;the membrane wraps around the payloads&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p8&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;preview.f4889a80347e2957.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;gripper attached to the UAV&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p9&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;trigger&#x2F;grasp-uav2.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;grasping a test payload&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p10&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;trigger&#x2F;grasp2.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;aerial grasping with a variety of objects&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;u&gt;Objective&lt;&#x2F;u&gt;: Improve the limited grasping capabilities of aerial robots such as UAVs, especially with regard to objects with a priori unknown shape and size.&lt;&#x2F;p&gt;
+&lt;p&gt;Grasping with a drone is inherently difficult:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the vehicle is underactuated, i.e., its degrees of freedom are coupled (moving in a given direction requires tilting the UAV&#x27;s body), which results in an overall &#x27;floaty&#x27; behavior&lt;&#x2F;li&gt;
+&lt;li&gt;ground effects and other disturbances degrade the positional accuracy&lt;&#x2F;li&gt;
+&lt;li&gt;external forces can easily destabilize the system&lt;&#x2F;li&gt;
+&lt;li&gt;traditional grippers often have a preferred grasp orientation or require specific features to establish a solid hold on the payload&lt;&#x2F;li&gt;
+&lt;li&gt;restrictive weight, power, and size envelope for the grasping hardware&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;Universal jamming grippers&lt;&#x2F;code&gt; are a promising avenue to &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p6&quot;&gt;[address the versatility problem]&lt;&#x2F;a&gt; and have been used on industrial robots for some time.
+In essence, they are a soft membrane filled with a granular material that hardens under, e.g., a vacuum.
+Under contact, the soft membrane nestles up against the payload.
+This typically requires a fair bit of force which is problematic for UAVs.
+A solid grasp is then established by hardening the granular material, essentially locking the object in place.
+The holding force is typically a mixture of suction force, surface friction, and mechanical interlocking.&lt;&#x2F;p&gt;
+&lt;p&gt;Whether this principle would perform well on UAVs and what modifications it would require to meet the objectives was yet unknown.
+Moreover, the boundary conditions in an industrial robot context are quite different.
+An &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p1&quot;&gt;[early proof of concept]&lt;&#x2F;a&gt; showed promising results.
+However, it required a relatively high vacuum (more than the onboard pneumatic system could provide) and also a rather high contact force.
+After some experiments with different granular materials, membrane compositions, and shapes, a satisfactory compromise was found resulting in the &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p2&quot;&gt;[final prototype]&lt;&#x2F;a&gt;.
+In particular:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a substantially lower activation force than others&lt;&#x2F;li&gt;
+&lt;li&gt;a favorable weight-to-holding force ratio thanks to its sticky membrane&lt;&#x2F;li&gt;
+&lt;li&gt;a compact size and a low weight thanks to operating with relatively small pumps, fitting within the small payload compartment of the UAV&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The gripper underwent rigorous validation and testing on a &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p3&quot;&gt;[test jig]&lt;&#x2F;a&gt;, which also offered the necessary insights to create a quantifiable model of the gripper that could be used in simulation environments.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p4&quot;&gt;[controller board]&lt;&#x2F;a&gt; is directly powered by the UAV&#x27;s battery and is in charge of the pneumatic system.
+It exchanges data with its onboard computer via USB serial (which in turn shares it via &lt;code&gt;ros&lt;&#x2F;code&gt;).
+It also features:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a ∆ΣADC and a programmable gain amplifier for contact force measurements&lt;&#x2F;li&gt;
+&lt;li&gt;a pressure sensor to monitor the air pressure inside the membrane&lt;&#x2F;li&gt;
+&lt;li&gt;an STM32 microcontroller running &lt;code&gt;FreeRTOS&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;a &lt;code&gt;state machine&lt;&#x2F;code&gt; implementing an optimal grasping procedure (switching the pumps and valves based on sensory feedback)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Last but not least, some aerial grasping tests were performed in the lab.
+The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p8&quot;&gt;[gripper attached to a UAV]&lt;&#x2F;a&gt; was used to &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;universal-jamming-gripper&#x2F;#p9&quot;&gt;[lift several dummy payloads]&lt;&#x2F;a&gt; of various sizes, shapes, and weights.
+This resulted in the first aerial platform equipped with a universal jamming gripper paving the way toward ever more capable UAVs.
+The experiment also showed that the gripper can assume the role of the UAV&#x27;s landing gear, which saves weight and further gives the UAV the ability to attach itself to certain features (e.g., a fence post).&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DIY UAV &#x27;Widow&#x27;</title>
+        <published>2019-03-01T00:00:00+00:00</published>
+        <updated>2019-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/diy-uav-widow/"/>
+        <id>https://krepa098.github.io/projects/diy-uav-widow/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/diy-uav-widow/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;frame.d430ba802ad74b94.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;frame construction&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;pcb_v1.70712f341d51b462.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;assembled autopilot PCB (v1)&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;pcb_v2.7f0f21e0e15b42d7.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;assembled autopilot PCB (v2)&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;top.f07fa6778398d44b.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;top side with status LEDs, SD card, and antenna&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;bottom.b81cde2f33f91d4c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;bottom side with ultrasonic sonar&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p6&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;widow&#x2F;flight.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;testing the stabilization&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p7&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;widow&#x2F;yaw.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;testing yaw&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;The scope of this project was set as follows:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;design &amp;amp; build the frame&lt;&#x2F;li&gt;
+&lt;li&gt;design &amp;amp; build of the flight controller electronics&lt;&#x2F;li&gt;
+&lt;li&gt;writing the firmware required to stability the UAV and make it fly&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;UAVs are inherently unstable systems with fast dynamics that require tight control loops to work (and yet do not require advanced control algorithms).&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;frame&quot;&gt;Frame&lt;&#x2F;h4&gt;
+&lt;p&gt;A UAV&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;diy-uav-widow&#x2F;#p1&quot;&gt;[frame]&lt;&#x2F;a&gt; has to be lightweight and yet stiff (thus usually made out of carbon fiber).
+With only limited tools at hand, the choice was made to use carbon fiber bars to tie the arms to the central hub.
+Other structural parts were printed on an FDM printer with the carbon bars exopy-glued to them.
+The PCBs were (ab)used as integral parts of the frame and also facilitated power distribution to the motors.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;flight-controller&quot;&gt;Flight Controller&lt;&#x2F;h4&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;diy-uav-widow&#x2F;#p2&quot;&gt;[flight controller]&lt;&#x2F;a&gt; featured an upper and a lower PCB.
+The lower PCB served as a simple power distribution board.
+The upper board was dedicated to the autopilot featuring:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;5V &lt;code&gt;buck converter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;3V3 LDO&lt;&#x2F;li&gt;
+&lt;li&gt;9DOF IMU&lt;&#x2F;li&gt;
+&lt;li&gt;Barometric pressure sensor (altitude)&lt;&#x2F;li&gt;
+&lt;li&gt;SD card (logs)&lt;&#x2F;li&gt;
+&lt;li&gt;3V3 to 5V level shifter&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;STM32F4&lt;&#x2F;code&gt; (chosen for its floating point support, running the autopilot)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;ESP8266&lt;&#x2F;code&gt; (web interface), later an &lt;code&gt;ESP32&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Both boards were made identically apart from leaving the lower PCB unpopulated.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;firmware&quot;&gt;Firmware&lt;&#x2F;h4&gt;
+&lt;p&gt;The autopilot (running in the STM32F4) was written in &lt;code&gt;C++&lt;&#x2F;code&gt; from scratch (using a super-loop and ST&#x27;s HAL) and included several interesting challenges (apart from being one of my first STM32 microcontrollers firmware &lt;em&gt;not&lt;&#x2F;em&gt; using the Arduino framework):&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a &lt;code&gt;DSHOT&lt;&#x2F;code&gt; (ESC signal) protocol implementation using &lt;code&gt;DMA&lt;&#x2F;code&gt; and &lt;code&gt;timers&lt;&#x2F;code&gt; to lower the load on the MCU&lt;&#x2F;li&gt;
+&lt;li&gt;an &lt;code&gt;ibus&lt;&#x2F;code&gt; protocol decoder to receive the remote&#x27;s stick positions&lt;&#x2F;li&gt;
+&lt;li&gt;the communication between the STM32F4 and the ESP8266 over &lt;code&gt;SPI&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;real-time data &lt;code&gt;logging&lt;&#x2F;code&gt; to the SD card&lt;&#x2F;li&gt;
+&lt;li&gt;implementing and tuning attitude and heading &lt;code&gt;control&lt;&#x2F;code&gt; system (cascading PID)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;AHRS&lt;&#x2F;code&gt; filter implementation&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;FIR&lt;&#x2F;code&gt; low-pass filters to reduce the noise of the IMU measurements&lt;&#x2F;li&gt;
+&lt;li&gt;implementing a &lt;code&gt;web interface&lt;&#x2F;code&gt; on the ESP8266 with settings and real-time plotting (essentially serving as a replacement for functionality typically found in QGroundControl and the like)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Especially the last point was a unique and useful feature since current solutions require software to be installed that may not even be available on your platform, e.g., GCS.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;outcome&quot;&gt;Outcome&lt;&#x2F;h4&gt;
+&lt;p&gt;The project saw two revisions (v1 green PCB, v2 black PCB), with the latter adding support for an SD card and an altitude sensor.
+The UAV was stabilizing just fine (for both) - and yet it was never really flying well.
+At higher thrust levels the motor-induced vibrations were too strong and caused erratic behavior during flight (this nicely highlighted the importance of anti-vibration mounting schemes commonly observable on off-the-shelf autopilots).&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Muscle Wire Robot</title>
+        <published>2018-04-01T00:00:00+00:00</published>
+        <updated>2018-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://krepa098.github.io/projects/muscle-wire-robot/"/>
+        <id>https://krepa098.github.io/projects/muscle-wire-robot/</id>
+        
+        <content type="html" xml:base="https://krepa098.github.io/projects/muscle-wire-robot/">&lt;div class=&quot;gallery-scroll-container send-back&quot;&gt;
+
+    &lt;!-- scrolling container --&gt;
+    &lt;div class=&quot;gallery-row&quot; id=&quot;gallery-scrollbar&quot;&gt;
+        &lt;!-- gallery elements --&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p1&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;robot.65a7db43693c2ad6.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;assembled robotic arm&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p2&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;controller.dbb994aa6dcf971c.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;controller board with drivers&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p3&quot;&gt;
+            
+            
+            &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;krepa098.github.io&amp;#x2F;processed_images&amp;#x2F;robot-with-object.4b0792b92905d543.jpg&quot; id=&quot;content&quot;&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;robotic arm with payload&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p4&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;muscle-wire-robot&#x2F;segment.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;stroke amplifier&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+        
+        
+        
+        &lt;div class=&quot;gallery-content-wide&quot; id=&quot;p5&quot;&gt;
+            
+            &lt;video id=&quot;content&quot; autoplay loop playsinline disablePictureInPicture muted&gt;
+                &lt;source src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;raw&#x2F;projects&#x2F;muscle-wire-robot&#x2F;gripper2.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+            &lt;&#x2F;video&gt;
+            
+
+            
+            &lt;div class=&quot;gallery-image-caption no-user-select&quot;&gt;gripper opening and closing&lt;&#x2F;div&gt;
+            
+        &lt;&#x2F;div&gt;
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+    &lt;&#x2F;div&gt;
+
+    &lt;!-- next and previous buttons --&gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    &lt;a class=&quot;gallery-prev hidden-mobile&quot;&gt;&amp;#10094;&lt;&#x2F;a&gt;
+    &lt;a class=&quot;gallery-next hidden-mobile&quot;&gt;&amp;#10095;&lt;&#x2F;a&gt;
+    
+
+    
+    
+    
+    
+    
+    
+
+    &lt;div class=&quot;gallery-popover&quot; id=&quot;gallery-popover&quot;&gt;&lt;&#x2F;div&gt;
+
+    &lt;!-- scroll script --&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;js&#x2F;gallery.js&quot;&gt;&lt;&#x2F;script&gt;
+
+&lt;&#x2F;div&gt;&lt;h3 id=&quot;description&quot;&gt;Description&lt;&#x2F;h3&gt;
+&lt;p&gt;This &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;muscle-wire-robot&#x2F;#p1&quot;&gt;[SMA-actuated robotic arm]&lt;&#x2F;a&gt; was constructed as part of a PhD student&#x27;s thesis &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; to have a showcase platform for a novel SMA control algorithm.
+The project had to be completed within a relatively tight time frame which meant 3D printing most parts - even though carbon fibre would have been the better choice for some components.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Shape memory alloy&lt;&#x2F;code&gt; (SMA) is a special kind of alloy that &#x27;remembers&#x27; its initial shape (established through &#x27;training&#x27;). Upon deformation, it can return to its initial shape by means of heat. Using ohmic heating, SMA muscle wires contract by about 3% of their length. The contraction force is quite significant and SMA wires rank among the actuators with the highest &lt;code&gt;power-to-weight&lt;&#x2F;code&gt; ratio.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The whole assembly had to be as lightweight as possible and also relatively small to fit the UAV&#x27;s envelope.
+Further, it required a high level of integration to be mounted on the UAV without requiring additional hardware.&lt;&#x2F;p&gt;
+&lt;p&gt;SMA wires are particularly challenging to integrate into designs because&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;they only exhibit a small stroke when actuated (although with a high force), therefore some &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;muscle-wire-robot&#x2F;#p4&quot;&gt;[leverage]&lt;&#x2F;a&gt; is usually required&lt;&#x2F;li&gt;
+&lt;li&gt;they require a bias force (typically a spring, or an antagonistic arrangement) to return them to their expanded&#x2F;stretched state&lt;&#x2F;li&gt;
+&lt;li&gt;any uneven heating (e.g., by contact with metal) causes a performance degradation&lt;&#x2F;li&gt;
+&lt;li&gt;the high actuation force combined with the minuscule surface of the wire creates a substantial contact pressure increasing the likelihood of the wire just cutting into the plastic parts&lt;&#x2F;li&gt;
+&lt;li&gt;the wire exhibits a change in resistance (proportional to its state and length), but this can not be used for (reliable) sensing&lt;&#x2F;li&gt;
+&lt;li&gt;they are electrically conductive which can result in accidental shorts&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;krepa098.github.io&#x2F;projects&#x2F;muscle-wire-robot&#x2F;#p2&quot;&gt;[controller board]&lt;&#x2F;a&gt; features an ESP8266 running a small web server providing a &lt;code&gt;REST API&lt;&#x2F;code&gt; to read the sensors and take commands.
+Being wireless, it can easily interact with the &lt;code&gt;MATLAB&lt;&#x2F;code&gt; environment running the control algorithm.
+The position readings of the revolute joint are obtained from a potentiometer attached to the shaft.
+MOSFETs control the ohmic heating of the SMA wires by applying a &lt;code&gt;PWM&lt;&#x2F;code&gt; signal with a duty cycle commanded by the control algorithm.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Quintanar-Guzman, S., Kannan, S., Olivares-Mendez, M. A., &amp;amp; Voos, H. (2016). Lightweight robotic arm actuated by shape memory alloy (SMA) wires. 2016 8th International Conference on Electronics, Computers and Artificial Intelligence (ECAI), 1–6. https:&#x2F;&#x2F;doi.org&#x2F;10.1109&#x2F;ECAI.2016.7861065&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

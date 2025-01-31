@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>Cooperative Localization of UAVs</title>
+
+
+
+<meta name="title" content="Cooperative Localization of UAVs">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://krepa098.github.io/projects/cooperative-localization-of-uavs/">
+
+<meta property="og:site_name" content="Paul&#x27;s Journal">
+
+
+<meta property="og:title" content="Cooperative Localization of UAVs">
+
+
+
+
+
+<link rel="canonical" href="https://krepa098.github.io/projects/cooperative-localization-of-uavs/">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/suCSS.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/extra.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/gallery.css" />
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://krepa098.github.io/js/script.js" defer></script>
+<script src="https://krepa098.github.io/js/jquery.min.js"></script>
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;home&#x2F;
+      </a>
+    
+      <a href="&#x2F;projects" class="">
+        
+        &#x2F;projects&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://krepa098.github.io/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://krepa098.github.io/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<div><a href="..">..</a>/<span class="accent-data">cooperative-localization-of-uavs</span></div>
+<time datetime="2017-08-01">published on: <span class="accent-data"> 08&#x2F;2017</span></time>
+
+
+<div class="">
+  tags:
+  
+  <a href="/tags/software">&#47;software&#47;</a>
+  
+  <a href="/tags/ros">&#47;ros&#47;</a>
+  
+  <a href="/tags/paper">&#47;paper&#47;</a>
+  
+</div>
+
+
+
+
+<hr>
+<h1>Cooperative Localization of UAVs</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+  Cooperative localization framework called &#x27;Atlas&#x27;. It enables UAVs to localize their peers with visual measurements and sensor fusion.
+</div>
+
+
+
+
+<hr>
+
+
+
+<div class="gallery-scroll-container send-back">
+
+    <!-- scrolling container -->
+    <div class="gallery-row" id="gallery-scrollbar">
+        <!-- gallery elements -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p1">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;preview.735a7013a2503dbf.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">UAV equipped with cameras and ArUco markers</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p2">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;lab.296a7ab9e73492f9.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">experimental setup (SnT aero lab)</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p3">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;graph.279ad82e1525e66b.jpg" id="content">
+            
+
+            
+        </div>
+        
+        
+
+
+        
+        
+        
+        
+    </div>
+
+    <!-- next and previous buttons -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <a class="gallery-prev hidden-mobile">&#10094;</a>
+    <a class="gallery-next hidden-mobile">&#10095;</a>
+    
+
+    
+    
+    
+    
+
+    <div class="gallery-popover" id="gallery-popover"></div>
+
+    <!-- scroll script -->
+    <script src="https://krepa098.github.io/js/gallery.js"></script>
+
+</div><h3 id="description">Description</h3>
+<p>Most UAVs nowadays are equipped with CCD cameras and also have enough grunt to do image processing in real-time.
+This capability can be used to improve (or enable) the localization of mobile robots.
+A marker attached to the UAV's body and the software <code>Atlas</code> written for this project is all that is needed to enable this functionality.</p>
+<p>Herein, we used <a href="https://krepa098.github.io/projects/cooperative-localization-of-uavs/#p1">[ARUCO]</a> markers (robust planar markers) from which a pose in the camera's frame is calculated.
+<code>Atlas</code> then dynamically generates a graph structure where</p>
+<ul>
+<li>the <code>nodes</code> are robots</li>
+<li>and the <code>edges</code> are relative transformations between them (including the covariance/standard deviation).</li>
+</ul>
+<p>The edges between the nodes are automatically removed after some given time of inactivity (e.g., loss of visual contact).
+At any given time, an estimate of a robot's pose with respect to the world frame can be obtained by processing all transformations up to the world frame with a <code>fusion algorithm</code> (here a simple average weighted by the standard deviation of the sensor).</p>
+<p>Possible <a href="https://krepa098.github.io/projects/cooperative-localization-of-uavs/#p3">[applications]</a> include scenarios where some of the robots are devoid of traditional means of localization (e.g., GPS).
+However also if all UAVs are equipped with GPS receivers, their pose estimates can be refined with additional relative pose measurements.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<div class="send-back">
+  Resources:
+  
+  <a href="https:&#x2F;&#x2F;rgu-repository.worktribe.com&#x2F;preview&#x2F;1798856&#x2F;KREMNER%202017%20Cooperative%20localization%20of%20unmanned%20%28AAM%29.pdf" class="icon-button"><i class="fa fa-file-text" aria-hidden="true"></i> paper</a>
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+  <div>
+    <p>Theme and color theme licensed under <a target="_blank" rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/Licence_MIT">MIT</a>.<br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using a fork of
+      the <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme, <a
+        target="_blank" rel="noopener noreferrer" href="https://speyll.github.io/suCSS/">suCSS</a> framework &amp; <a
+        target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a>.<br>
+    </p>
+
+  </div>
+  
+</div>
+      </footer>
+</body>
+</html>

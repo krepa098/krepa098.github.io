@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>Robot Control Unit</title>
+
+
+
+<meta name="title" content="Robot Control Unit">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://krepa098.github.io/projects/robot-control-unit/">
+
+<meta property="og:site_name" content="Paul&#x27;s Journal">
+
+
+<meta property="og:title" content="Robot Control Unit">
+
+
+
+
+
+<link rel="canonical" href="https://krepa098.github.io/projects/robot-control-unit/">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/suCSS.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/extra.css" />
+<link rel="stylesheet" type="text/css" href="https://krepa098.github.io/css/gallery.css" />
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://krepa098.github.io/js/script.js" defer></script>
+<script src="https://krepa098.github.io/js/jquery.min.js"></script>
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;home&#x2F;
+      </a>
+    
+      <a href="&#x2F;projects" class="">
+        
+        &#x2F;projects&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://krepa098.github.io/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://krepa098.github.io/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<div><a href="..">..</a>/<span class="accent-data">robot-control-unit</span></div>
+<time datetime="2024-12-01">published on: <span class="accent-data"> 12&#x2F;2024</span></time>
+
+
+<div class="">
+  tags:
+  
+  <a href="/tags/design">&#47;design&#47;</a>
+  
+  <a href="/tags/software">&#47;software&#47;</a>
+  
+  <a href="/tags/embedded">&#47;embedded&#47;</a>
+  
+</div>
+
+
+
+
+<hr>
+<h1>Robot Control Unit</h1>
+
+
+
+<div>
+  Hardware designed to control a differential drive robot with a firmware built on async rust and the rtic&#x2F;embassy framework.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+<div class="gallery-scroll-container send-back">
+
+    <!-- scrolling container -->
+    <div class="gallery-row" id="gallery-scrollbar">
+        <!-- gallery elements -->
+        
+        
+        
+
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p1">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;rcu.43c80241318e324a.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">controller board with stepper drivers</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p2">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;psu.3ee62c96b0aef5b0.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">power supply (25W) to provide power to the controller and onboard computer</div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="gallery-content-wide" id="p3">
+            
+            
+            <img src="https:&#x2F;&#x2F;krepa098.github.io&#x2F;processed_images&#x2F;assembly.a0d4908640b50800.jpg" id="content">
+            
+
+            
+            <div class="gallery-image-caption no-user-select">test fitting the components</div>
+            
+        </div>
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <!-- next and previous buttons -->
+    
+    
+
+    
+    <a class="gallery-prev hidden-mobile">&#10094;</a>
+    <a class="gallery-next hidden-mobile">&#10095;</a>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="gallery-popover" id="gallery-popover"></div>
+
+    <!-- scroll script -->
+    <script src="https://krepa098.github.io/js/gallery.js"></script>
+
+</div><h3 id="description">Description</h3>
+<p>This <a href="https://krepa098.github.io/projects/robot-control-unit/#p1">[hardware assembly]</a> was made for an indoor differential drive robot with a two-axis gimbal.</p>
+<p>At its core is the controller board (center).
+It consists of:</p>
+<ul>
+<li>a STM32F7 MCU</li>
+<li>6DOF IMU, 3DOF magnetometer</li>
+<li>4x configurable TMC stepper drivers with all bells and whistles hooked up</li>
+<li>connectors for an LCD, and several peripherals</li>
+<li>2x servo connectors</li>
+<li>1x ibus receiver</li>
+<li>1x serial connector (SWD + UART) to the onboard computer (Raspberry Pi)</li>
+</ul>
+<p>The board is programmable remotely via the Raspberry's GPIO port and <code>openocd</code>.
+During the development of the robot, this has proven not only to be a huge time saver but it also frees the robot of all wires that would otherwise restrain it in its motion.</p>
+<p>Its primary function is to serve as an interface between the onboard computer and the hardware.
+It also takes care of all the critical real-time tasks such as step generation (ramp profiles), AHRS updates, reading the remote control inputs, etc.
+Finally, it also assumes safety-critical functions such as preventing the robot from driving down a stairwell or colliding with obstacles.</p>
+<p>The board is powered by a <a href="https://krepa098.github.io/projects/robot-control-unit/#p2">[5V, 25W buck converter]</a> using the <code>AP64501</code> from Analog Devices, the same chip also used on Raspberry's compute module carrier board.
+Power monitoring also takes place here.
+Since the robot operates on batteries, it is important to keep track of its voltage and the energy it consumes.</p>
+<p>The firmware of this board is a bit unusual and breaks with the custom of being written in the languages traditionally used for embedded systems, namely C or C++.
+Instead, it is written from the ground up in <code>rust</code> for two good reasons:</p>
+<ol>
+<li><strong>correctness</strong>.
+Every sufficiently complex software can be affected by <code>memory corruption</code> (e.g., due to a dangling pointer), which is not only hard to spot,  but also extremely challenging to reproduce and debug.
+Even worse, it can go unnoticed, until it happens in the field where the system cannot be serviced and/or cause damage.
+Of course, rigorous coding discipline and best practices get you pretty far in C/C++, but having the compiler eliminate a whole range of possible bugs is a huge win <em>and a competitive edge</em>.
+If it compiles, it works (apart from logic errors).</li>
+<li><strong>async</strong>.
+Contrary to C/C++, <code>async</code> functionality is a core part of the <code>rust</code> language.
+It enables fearless concurrent programming (tasks scheduled by an executor to run on a single core) written as if executed sequentially.
+This is beneficial for almost anything IO bound such as web servers, databases, <em>and also embedded systems</em>.
+While MCUs have hardware built in (DMA) to offload IO operations and to keep the application running, this can become quite a burden to manage properly often resulting in complex state machines.
+By writing this code asynchronously, most of the complexity goes away.
+Herein, the <code>rtic</code> framework was used with the <code>embassy-stm32</code> HAL.
+The former provides the scaffolding (similar to FreeRTOS), and the latter provides access to the STM32 peripherals and also implements the needed <code>traits</code> for async execution.
+Notice that rust async uses cooperative scheduling, as opposed to preemptive scheduling in FreeRTOS.
+A noticeable advantage of this approach is that there is no separate stack per task and thus no stack size tuning, faster task switches, and overall better resource utilization <sup class="footnote-reference"><a href="#1">1</a></sup> <sup class="footnote-reference"><a href="#2">2</a></sup>.
+A possible downside is that tasks that don't yield can starve other tasks.</li>
+<li><strong>tooling</strong>
+Embedded rust has some impressive tools and libraries such as <code>defmt</code> for very efficient, lightweight data logging.
+<code>embedded-hal</code> enables portability between platforms by providing a set of useful traits.
+<code>probe-rs</code> is the de facto standard for flashing and debugging.
+<code>defmt-test</code> provides a hardness to run <code>unit tests</code> on bare metal with relative ease.</li>
+</ol>
+<p>Overall, the embedded rust ecosystem has matured massively over the last couple of years.
+Some vendors (espressif and infineon) even started providing official support for their hardware, while others are still a pure community effort (STM32).</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown">https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown</a></p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://interrupt.memfault.com/blog/embedded-async-rust">https://interrupt.memfault.com/blog/embedded-async-rust</a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+  <div>
+    <p>Theme and color theme licensed under <a target="_blank" rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/Licence_MIT">MIT</a>.<br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using a fork of
+      the <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme, <a
+        target="_blank" rel="noopener noreferrer" href="https://speyll.github.io/suCSS/">suCSS</a> framework &amp; <a
+        target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a>.<br>
+    </p>
+
+  </div>
+  
+</div>
+      </footer>
+</body>
+</html>
